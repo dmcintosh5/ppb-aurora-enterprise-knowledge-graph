@@ -1,0 +1,1392 @@
+[
+    {
+        "query_id": "seed_01",
+        "category": "Factoid",
+        "query_text": "What are the core values of Peachtree Pantry & Beverage Co.?",
+        "expected_answer": "The core values are Integrity, Community, and Safety.",
+        "relevance_grades": {
+            "employee_handbook.pdf:chunk_0": 2
+        }
+    },
+    {
+        "query_id": "seed_02",
+        "category": "Factoid",
+        "query_text": "What is the bereavement leave duration at PPB?",
+        "expected_answer": "Employees are eligible for up to 3 days of paid bereavement leave for the death of an immediate family member.",
+        "relevance_grades": {
+            "employee_handbook.pdf:chunk_8": 2
+        }
+    },
+    {
+        "query_id": "seed_03",
+        "category": "Graph-Relational",
+        "query_text": "Who is the CEO of the company?",
+        "expected_answer": "Terry Chen",
+        "relevance_grades": {
+            "PPB-001": 2,
+            "ROLE_CEO_Executive": 1
+        }
+    },
+    {
+        "query_id": "seed_04",
+        "category": "Graph-Relational",
+        "query_text": "What is Logan Lee's job title?",
+        "expected_answer": "CFO",
+        "relevance_grades": {
+            "PPB-004": 2,
+            "ROLE_CFO_Executive": 1
+        }
+    },
+    {
+        "query_id": "seed_05",
+        "category": "Multi-Hop",
+        "query_text": "What is the minimum wage for an employee at Store #GA-01?",
+        "expected_answer": "$7.25 (Georgia minimum wage)",
+        "relevance_grades": {
+            "MANDATE_GA": 2,
+            "STATE_GA": 1,
+            "GA-01": 1
+        }
+    },
+    {
+        "query_id": "seed_06",
+        "category": "Multi-Hop",
+        "query_text": "Who is the manager for Jesse Reed?",
+        "expected_answer": "Sidney Heller (based on directory structure)",
+        "relevance_grades": {
+            "PPB-007": 2,
+            "PPB-008": 1
+        }
+    },
+    {
+        "query_id": "graph_mgr_PPB-130",
+        "category": "Graph-Relational",
+        "query_text": "Who is the manager for Taylor Patel?",
+        "expected_answer": "Phoenix DePorter",
+        "relevance_grades": {
+            "PPB-129": 2,
+            "PPB-130": 1
+        }
+    },
+    {
+        "query_id": "graph_mgr_PPB-153",
+        "category": "Graph-Relational",
+        "query_text": "Who is the manager for Jamie Reed?",
+        "expected_answer": "Micah Rivera",
+        "relevance_grades": {
+            "PPB-152": 2,
+            "PPB-153": 1
+        }
+    },
+    {
+        "query_id": "graph_mgr_PPB-086",
+        "category": "Graph-Relational",
+        "query_text": "Who is the manager for River Finn?",
+        "expected_answer": "Parker Chen",
+        "relevance_grades": {
+            "PPB-084": 2,
+            "PPB-086": 1
+        }
+    },
+    {
+        "query_id": "graph_mgr_PPB-192",
+        "category": "Graph-Relational",
+        "query_text": "Who is the manager for Emerson Miller?",
+        "expected_answer": "Alex Miller",
+        "relevance_grades": {
+            "PPB-189": 2,
+            "PPB-192": 1
+        }
+    },
+    {
+        "query_id": "graph_mgr_PPB-112",
+        "category": "Graph-Relational",
+        "query_text": "Who is the manager for Micah Reed?",
+        "expected_answer": "Terry DePorter",
+        "relevance_grades": {
+            "PPB-106": 2,
+            "PPB-112": 1
+        }
+    },
+    {
+        "query_id": "graph_mgr_PPB-212",
+        "category": "Graph-Relational",
+        "query_text": "Who is the manager for Hayden Chen?",
+        "expected_answer": "Jackie Kim",
+        "relevance_grades": {
+            "PPB-211": 2,
+            "PPB-212": 1
+        }
+    },
+    {
+        "query_id": "graph_mgr_PPB-161",
+        "category": "Graph-Relational",
+        "query_text": "Who is the manager for Jade Nguyen?",
+        "expected_answer": "Micah DePorter",
+        "relevance_grades": {
+            "PPB-160": 2,
+            "PPB-161": 1
+        }
+    },
+    {
+        "query_id": "graph_mgr_PPB-312",
+        "category": "Graph-Relational",
+        "query_text": "Who is the manager for Alex Lee?",
+        "expected_answer": "Terry Chen",
+        "relevance_grades": {
+            "PPB-001": 2,
+            "PPB-312": 1
+        }
+    },
+    {
+        "query_id": "graph_mgr_PPB-082",
+        "category": "Graph-Relational",
+        "query_text": "Who is the manager for Finley Vance?",
+        "expected_answer": "Jules Finn",
+        "relevance_grades": {
+            "PPB-002": 2,
+            "PPB-082": 1
+        }
+    },
+    {
+        "query_id": "graph_mgr_PPB-149",
+        "category": "Graph-Relational",
+        "query_text": "Who is the manager for Terry Patel?",
+        "expected_answer": "Micah Heller",
+        "relevance_grades": {
+            "PPB-145": 2,
+            "PPB-149": 1
+        }
+    },
+    {
+        "query_id": "graph_store_PPB-130",
+        "category": "Graph-Relational",
+        "query_text": "Which city does Taylor Patel work in?",
+        "expected_answer": "New York City",
+        "relevance_grades": {
+            "NY-04": 2,
+            "PPB-130": 1
+        }
+    },
+    {
+        "query_id": "graph_store_PPB-153",
+        "category": "Graph-Relational",
+        "query_text": "Which city does Jamie Reed work in?",
+        "expected_answer": "Richmond",
+        "relevance_grades": {
+            "VA-01": 2,
+            "PPB-153": 1
+        }
+    },
+    {
+        "query_id": "graph_store_PPB-086",
+        "category": "Graph-Relational",
+        "query_text": "Which city does River Finn work in?",
+        "expected_answer": "New York City",
+        "relevance_grades": {
+            "NY-01": 2,
+            "PPB-086": 1
+        }
+    },
+    {
+        "query_id": "graph_store_PPB-112",
+        "category": "Graph-Relational",
+        "query_text": "Which city does Micah Reed work in?",
+        "expected_answer": "New York City",
+        "relevance_grades": {
+            "NY-02": 2,
+            "PPB-112": 1
+        }
+    },
+    {
+        "query_id": "graph_store_PPB-161",
+        "category": "Graph-Relational",
+        "query_text": "Which city does Jade Nguyen work in?",
+        "expected_answer": "Richmond",
+        "relevance_grades": {
+            "VA-02": 2,
+            "PPB-161": 1
+        }
+    },
+    {
+        "query_id": "graph_store_PPB-149",
+        "category": "Graph-Relational",
+        "query_text": "Which city does Terry Patel work in?",
+        "expected_answer": "Richmond",
+        "relevance_grades": {
+            "VA-01": 2,
+            "PPB-149": 1
+        }
+    },
+    {
+        "query_id": "multihop_wage_PPB-130",
+        "category": "Multi-Hop",
+        "query_text": "What is the minimum wage for Taylor Patel's location?",
+        "expected_answer": "17.0",
+        "relevance_grades": {
+            "MANDATE_NY": 2,
+            "STATE_NY": 1,
+            "NY-04": 1,
+            "PPB-130": 1
+        }
+    },
+    {
+        "query_id": "multihop_wage_PPB-153",
+        "category": "Multi-Hop",
+        "query_text": "What is the minimum wage for Jamie Reed's location?",
+        "expected_answer": "12.77",
+        "relevance_grades": {
+            "MANDATE_VA": 2,
+            "STATE_VA": 1,
+            "VA-01": 1,
+            "PPB-153": 1
+        }
+    },
+    {
+        "query_id": "multihop_wage_PPB-086",
+        "category": "Multi-Hop",
+        "query_text": "What is the minimum wage for River Finn's location?",
+        "expected_answer": "17.0",
+        "relevance_grades": {
+            "MANDATE_NY": 2,
+            "STATE_NY": 1,
+            "NY-01": 1,
+            "PPB-086": 1
+        }
+    },
+    {
+        "query_id": "multihop_wage_PPB-112",
+        "category": "Multi-Hop",
+        "query_text": "What is the minimum wage for Micah Reed's location?",
+        "expected_answer": "17.0",
+        "relevance_grades": {
+            "MANDATE_NY": 2,
+            "STATE_NY": 1,
+            "NY-02": 1,
+            "PPB-112": 1
+        }
+    },
+    {
+        "query_id": "multihop_wage_PPB-161",
+        "category": "Multi-Hop",
+        "query_text": "What is the minimum wage for Jade Nguyen's location?",
+        "expected_answer": "12.77",
+        "relevance_grades": {
+            "MANDATE_VA": 2,
+            "STATE_VA": 1,
+            "VA-02": 1,
+            "PPB-161": 1
+        }
+    },
+    {
+        "query_id": "multihop_wage_PPB-149",
+        "category": "Multi-Hop",
+        "query_text": "What is the minimum wage for Terry Patel's location?",
+        "expected_answer": "12.77",
+        "relevance_grades": {
+            "MANDATE_VA": 2,
+            "STATE_VA": 1,
+            "VA-01": 1,
+            "PPB-149": 1
+        }
+    },
+    {
+        "query_id": "factoid_employee_handbook.pdf_0",
+        "category": "Factoid",
+        "query_text": "What are the requirements for Hotline Cooks regarding footwear?",
+        "expected_answer": "Hotline Cooks must wear non-slip, closed-toe shoes at all times to prevent injury from spills or dropped equipment. Open-back clogs are prohibited.",
+        "relevance_grades": {
+            "employee_handbook.pdf:chunk_0": 2
+        }
+    },
+    {
+        "query_id": "factoid_job_desc.pdf_0",
+        "category": "Factoid",
+        "query_text": "What are the specific requirements for maintaining station cleanliness according to PPB's standards?",
+        "expected_answer": "Maintain station cleanliness according to the PPB Sanitation SOP and state-specific health codes (GA, NY, or VA).",
+        "relevance_grades": {
+            "job_desc.pdf:chunk_0": 2
+        }
+    },
+    {
+        "query_id": "factoid_sop.pdf_0",
+        "category": "Factoid",
+        "query_text": "What documentation does the General Manager need to collect within 24 hours of a new hire's start date?",
+        "expected_answer": "The General Manager must collect a valid Work Permit (for minors) or Form I-9 documentation within 24 hours of hire.",
+        "relevance_grades": {
+            "sop.pdf:chunk_0": 2
+        }
+    },
+    {
+        "query_id": "factoid_employee_handbook.pdf_2",
+        "category": "Factoid",
+        "query_text": "I work in Virginia. How much sick leave do I accrue?",
+        "expected_answer": "Employees in Virginia follow the standard PPB accrual rate of 1 hour per 40 worked.",
+        "relevance_grades": {
+            "employee_handbook.pdf:chunk_2": 2
+        }
+    },
+    {
+        "query_id": "factoid_employee_handbook.pdf_5",
+        "category": "Factoid",
+        "query_text": "What types of leave does the company recognize?",
+        "expected_answer": "The company recognizes FMLA (Federal) leave and safety leave (Role-Specific).",
+        "relevance_grades": {
+            "employee_handbook.pdf:chunk_5": 2
+        }
+    },
+    {
+        "query_id": "factoid_employee_handbook.pdf_3",
+        "category": "Factoid",
+        "query_text": "What is the policy regarding overtime pay?",
+        "expected_answer": "follow the standard PPB accrual rate of 1 hour per 40 worked.",
+        "relevance_grades": {
+            "employee_handbook.pdf:chunk_3": 2
+        }
+    },
+    {
+        "query_id": "factoid_employee_handbook.pdf_1",
+        "category": "Factoid",
+        "query_text": "What is PPB's policy regarding overtime pay for employees in front-line roles?",
+        "expected_answer": "Most front-line roles are non-exempt and eligible for overtime.",
+        "relevance_grades": {
+            "employee_handbook.pdf:chunk_1": 2
+        }
+    },
+    {
+        "query_id": "factoid_employee_handbook.pdf_0",
+        "category": "Factoid",
+        "query_text": "PPB emphasizes community service; can you tell me more about how that translates into our daily work?",
+        "expected_answer": "We serve our local neighborhoods in Atlanta, Richmond, and NYC with pride. This means providing excellent service and maintaining a strong connection with the communities we operate within.",
+        "relevance_grades": {
+            "employee_handbook.pdf:chunk_0": 2
+        }
+    },
+    {
+        "query_id": "factoid_employee_handbook.pdf_4",
+        "category": "Factoid",
+        "query_text": "I recently had a baby, am I eligible for any paid leave?",
+        "expected_answer": "Regular employees are eligible for up to 3 days of paid leave following the birth/adoption of a child.",
+        "relevance_grades": {
+            "employee_handbook.pdf:chunk_4": 2
+        }
+    },
+    {
+        "query_id": "factoid_job_desc.pdf_0",
+        "category": "Factoid",
+        "query_text": "What are the specific requirements for maintaining station cleanliness according to PPB's Sanitation SOP?",
+        "expected_answer": "Maintain station cleanliness according to the PPB Sanitation SOP and state-specific health codes (GA, NY, or VA).",
+        "relevance_grades": {
+            "job_desc.pdf:chunk_0": 2
+        }
+    },
+    {
+        "query_id": "factoid_job_desc.pdf_3",
+        "category": "Factoid",
+        "query_text": "I noticed the Employee Handbook has different Paid Sick Leave accruals for NY versus GA. How does the HRBP ensure these differences are maintained?",
+        "expected_answer": "The HRBP is responsible for maintaining the State-Specific Addendums (GA, NY, VA) for the Employee Handbook, ensuring policies reflect current regional labor laws like the different Paid Sick Leave accruals.",
+        "relevance_grades": {
+            "job_desc.pdf:chunk_3": 2
+        }
+    },
+    {
+        "query_id": "factoid_job_desc.pdf_4",
+        "category": "Factoid",
+        "query_text": "I'm helping Agent B and Agent C resolve some duplicate entries \u2013 specifically, when they\u2019re listed as both 'Front-line Associate' and 'Service Crew'. What\u2019s the process for reconciling these types of inconsistencies within the HRIS?",
+        "expected_answer": "You act as the Subject Matter Expert for Agent B and Agent C to resolve entity duplication. This involves ensuring reporting lines and department codes are accurately updated in the Synthetic Organizational Directory, addressing instances like reconciling 'Front-line Associate' and 'Service Crew' to maintain data integrity.",
+        "relevance_grades": {
+            "job_desc.pdf:chunk_4": 2
+        }
+    },
+    {
+        "query_id": "factoid_job_desc.pdf_1",
+        "category": "Factoid",
+        "query_text": "What specific policies do I need to be aware of regarding employee attendance, uniforms, and cell phone usage?",
+        "expected_answer": "You need to follow all guidelines in the PPB Employee Handbook, specifically regarding attendance, uniform standards, and cell phone usage.",
+        "relevance_grades": {
+            "job_desc.pdf:chunk_1": 2
+        }
+    },
+    {
+        "query_id": "factoid_job_desc.pdf_2",
+        "category": "Factoid",
+        "query_text": "I received a Form 102-B, what's the procedure for handling it?",
+        "expected_answer": "You are the first point of contact for employee grievances and Form 102-B (Grievance Intake) as defined in the SOP for Key Workflows.",
+        "relevance_grades": {
+            "job_desc.pdf:chunk_2": 2
+        }
+    },
+    {
+        "query_id": "factoid_sop.pdf_1",
+        "category": "Factoid",
+        "query_text": "I'm a new hire - what's the process for reporting a concern about a workplace issue?",
+        "expected_answer": "To report a workplace concern, you\u2019ll need to complete Form 102-B (Grievance Intake), detailing the incident, date, and any witnesses. The form will then be submitted to the Shift Lead (if applicable) or directly to the General Manager.",
+        "relevance_grades": {
+            "sop.pdf:chunk_1": 2
+        }
+    },
+    {
+        "query_id": "factoid_sop.pdf_3",
+        "category": "Factoid",
+        "query_text": "I need to request a shift swap due to an emergency. What's the process and how does approval work?",
+        "expected_answer": "A written request must be submitted to the General Manager at least 30 days in advance. Requests are approved on a \"first-come, first-served\" basis. In the event of a tie, the employee with higher seniority (earlier hire date) is granted the time off. Once approved, the GM initials the master schedule and updates the POS system by Thursday for the following week.",
+        "relevance_grades": {
+            "sop.pdf:chunk_3": 2
+        }
+    },
+    {
+        "query_id": "factoid_sop.pdf_2",
+        "category": "Factoid",
+        "query_text": "What happens after a confidential investigation is conducted regarding a complaint?",
+        "expected_answer": "Within 10 business days, management meets with the employee to discuss the findings and any remedial actions. The final resolution is logged, and the Agent D (Graph Builder) updates the GrievanceHistory node to track compliance trends by location.",
+        "relevance_grades": {
+            "sop.pdf:chunk_2": 2
+        }
+    },
+    {
+        "query_id": "factoid_sop.pdf_0",
+        "category": "Factoid",
+        "query_text": "What documentation does the General Manager need to collect immediately after a new hire is hired?",
+        "expected_answer": "The General Manager must collect a valid Work Permit (for minors) or Form I-9 documentation within 24 hours of hire.",
+        "relevance_grades": {
+            "sop.pdf:chunk_0": 2
+        }
+    },
+    {
+        "query_id": "factoid_sop.pdf_4",
+        "category": "Factoid",
+        "query_text": "If I need to swap shifts with another Hotline Cook, where should I go to find a suitable replacement?",
+        "expected_answer": "The internal directory to contact other employees with the same Role (e.g., another Hotline Cook) to find a replacement.",
+        "relevance_grades": {
+            "sop.pdf:chunk_4": 2
+        }
+    },
+    {
+        "query_id": "factoid_employee_handbook.pdf_5",
+        "category": "Factoid",
+        "query_text": "What types of leave can I take if I need time off work?",
+        "expected_answer": "You may be eligible for FMLA (Federal) leave, as well as leave related to Safety (Role-Specific) and other circumstances.",
+        "relevance_grades": {
+            "employee_handbook.pdf:chunk_5": 2
+        }
+    },
+    {
+        "query_id": "factoid_employee_handbook.pdf_4",
+        "category": "Factoid",
+        "query_text": "I need to take time off because my child was adopted. Am I eligible for any paid leave?",
+        "expected_answer": "Regular employees are eligible for up to 3 days of paid leave following the birth/adoption of a child.",
+        "relevance_grades": {
+            "employee_handbook.pdf:chunk_4": 2
+        }
+    },
+    {
+        "query_id": "factoid_employee_handbook.pdf_3",
+        "category": "Factoid",
+        "query_text": "What is the pay accrual rate for overtime hours?",
+        "expected_answer": "Follow the standard PPB accrual rate of 1 hour per 40 worked.",
+        "relevance_grades": {
+            "employee_handbook.pdf:chunk_3": 2
+        }
+    },
+    {
+        "query_id": "factoid_employee_handbook.pdf_0",
+        "category": "Factoid",
+        "query_text": "PPB mentions serving our local neighborhoods \u2013 does that impact the types of beverages we offer or the community events we participate in?",
+        "expected_answer": "This handbook focuses on our front-line service employees, including Front-line Service Associates, Shift Leads, and Hotline Cooks. While we pride ourselves on serving our local neighborhoods in Atlanta, Richmond, and NYC, specific details regarding beverage offerings and community event participation are not outlined in this handbook. Please consult your supervisor for information on these aspects.",
+        "relevance_grades": {
+            "employee_handbook.pdf:chunk_0": 2
+        }
+    },
+    {
+        "query_id": "factoid_employee_handbook.pdf_1",
+        "category": "Factoid",
+        "query_text": "What type of time tracking system do non-exempt employees use?",
+        "expected_answer": "All non-exempt employees must clock in/out via the Point of Sale (POS) system.",
+        "relevance_grades": {
+            "employee_handbook.pdf:chunk_1": 2
+        }
+    },
+    {
+        "query_id": "factoid_employee_handbook.pdf_2",
+        "category": "Factoid",
+        "query_text": "I work a long shift, do I need to take a meal break?",
+        "expected_answer": "Employees working 7.5+ continuous hours are entitled to a 30-minute unpaid meal period.",
+        "relevance_grades": {
+            "employee_handbook.pdf:chunk_2": 2
+        }
+    },
+    {
+        "query_id": "factoid_job_desc.pdf_2",
+        "category": "Factoid",
+        "query_text": "Who do I go to if an employee has a complaint or grievance?",
+        "expected_answer": "You are the first point of contact for employee grievances and are responsible for ensuring front-line staff adhere to PPB policies.",
+        "relevance_grades": {
+            "job_desc.pdf:chunk_2": 2
+        }
+    },
+    {
+        "query_id": "factoid_job_desc.pdf_0",
+        "category": "Factoid",
+        "query_text": "What specific health codes do I need to follow when cleaning my station?",
+        "expected_answer": "Maintain station cleanliness according to the PPB Sanitation SOP and state-specific health codes (GA, NY, or VA).",
+        "relevance_grades": {
+            "job_desc.pdf:chunk_0": 2
+        }
+    },
+    {
+        "query_id": "factoid_job_desc.pdf_3",
+        "category": "Factoid",
+        "query_text": "I've noticed differences in paid sick leave accruals between New York and Georgia \u2013 how does the HRBP ensure the Employee Handbook reflects the correct state-specific regulations?",
+        "expected_answer": "The HRBP maintains the State-Specific Addendums (GA, NY, VA) for the Employee Handbook, ensuring policies reflect current regional labor laws (e.g., NY Paid Sick Leave vs. GA accruals).",
+        "relevance_grades": {
+            "job_desc.pdf:chunk_3": 2
+        }
+    },
+    {
+        "query_id": "factoid_job_desc.pdf_1",
+        "category": "Factoid",
+        "query_text": "What specific policies do I need to follow regarding employee attendance and uniform standards?",
+        "expected_answer": "You must follow all guidelines in the PPB Employee Handbook, specifically regarding attendance, uniform standards, and cell phone usage.",
+        "relevance_grades": {
+            "job_desc.pdf:chunk_1": 2
+        }
+    },
+    {
+        "query_id": "factoid_job_desc.pdf_4",
+        "category": "Factoid",
+        "query_text": "I'm working with Agent B and Agent C who appear to be listed as both 'Front-line Associate' and 'Service Crew in the HRIS \u2013 what's the process for reconciling these duplicate entries?",
+        "expected_answer": "You will act as the Subject Matter Expert for Agent B and Agent C to resolve entity duplication. This involves reconciling entries like 'Front-line Associate' and 'Service Crew' by updating the Synthetic Organizational Directory within the HRIS to ensure accurate reporting lines and department codes.",
+        "relevance_grades": {
+            "job_desc.pdf:chunk_4": 2
+        }
+    },
+    {
+        "query_id": "factoid_sop.pdf_1",
+        "category": "Factoid",
+        "query_text": "I'm a new hire \u2013 what training do I need to complete before I'm added to the schedule?",
+        "expected_answer": "New hires complete three 'Shadow Shifts' under a Shift Lead before being added to the master schedule. Additionally, all employees handling food must complete the ServSafe\u00ae Food Handler Course within 30 days.",
+        "relevance_grades": {
+            "sop.pdf:chunk_1": 2
+        }
+    },
+    {
+        "query_id": "factoid_sop.pdf_3",
+        "category": "Factoid",
+        "query_text": "I need to request a shift swap due to an emergency. What's the process and how does approval work?",
+        "expected_answer": "A written request must be submitted to the General Manager at least 30 days in advance. Requests are approved on a 'first-come, first-served' basis. In the event of a tie, the employee with higher seniority (earlier hire date) is granted the time off. Once approved, the GM initials the master schedule and updates the POS system by Thursday for the following week.",
+        "relevance_grades": {
+            "sop.pdf:chunk_3": 2
+        }
+    },
+    {
+        "query_id": "factoid_sop.pdf_2",
+        "category": "Factoid",
+        "query_text": "What happens after a formal investigation is conducted regarding a complaint?",
+        "expected_answer": "Management will meet with the employee within 10 business days to discuss the findings and any remedial actions, and the final resolution will be logged with updates to the GrievanceHistory node by the Agent D.",
+        "relevance_grades": {
+            "sop.pdf:chunk_2": 2
+        }
+    },
+    {
+        "query_id": "factoid_sop.pdf_0",
+        "category": "Factoid",
+        "query_text": "What documentation does the General Manager need to collect within 24 hours of a new hire's start date?",
+        "expected_answer": "The General Manager must collect a valid Work Permit (for minors) or Form I-9 documentation within 24 hours of hire.",
+        "relevance_grades": {
+            "sop.pdf:chunk_0": 2
+        }
+    },
+    {
+        "query_id": "factoid_sop.pdf_4",
+        "category": "Factoid",
+        "query_text": "If I need to swap shifts with another Hotline Cook, where should I look for them and what's the process?",
+        "expected_answer": "The internal directory to contact other employees with the same Role (e.g., another Hotline Cook) to find a replacement. This swap also requires Manager Approval and adherence to a 40-hour workweek limit.",
+        "relevance_grades": {
+            "sop.pdf:chunk_4": 2
+        }
+    },
+    {
+        "query_id": "graph_mgr_PPB-007",
+        "category": "Graph-Relational",
+        "query_text": "Who is the manager for Sidney Heller?",
+        "expected_answer": "Sam Skye",
+        "relevance_grades": {
+            "PPB-006": 2,
+            "PPB-007": 1
+        }
+    },
+    {
+        "query_id": "graph_mgr_PPB-339",
+        "category": "Graph-Relational",
+        "query_text": "Who is the manager for Sawyer Wilson?",
+        "expected_answer": "Terry Chen",
+        "relevance_grades": {
+            "PPB-001": 2,
+            "PPB-339": 1
+        }
+    },
+    {
+        "query_id": "graph_mgr_PPB-159",
+        "category": "Graph-Relational",
+        "query_text": "Who is the manager for Pat Brooks?",
+        "expected_answer": "Riley Smith",
+        "relevance_grades": {
+            "PPB-143": 2,
+            "PPB-159": 1
+        }
+    },
+    {
+        "query_id": "graph_mgr_PPB-090",
+        "category": "Graph-Relational",
+        "query_text": "Who is the manager for Taylor Finn?",
+        "expected_answer": "Parker Chen",
+        "relevance_grades": {
+            "PPB-084": 2,
+            "PPB-090": 1
+        }
+    },
+    {
+        "query_id": "graph_mgr_PPB-335",
+        "category": "Graph-Relational",
+        "query_text": "Who is the manager for Quinn Vance?",
+        "expected_answer": "Terry Chen",
+        "relevance_grades": {
+            "PPB-001": 2,
+            "PPB-335": 1
+        }
+    },
+    {
+        "query_id": "graph_mgr_PPB-147",
+        "category": "Graph-Relational",
+        "query_text": "Who is the manager for Emerson Stone?",
+        "expected_answer": "Micah Heller",
+        "relevance_grades": {
+            "PPB-145": 2,
+            "PPB-147": 1
+        }
+    },
+    {
+        "query_id": "graph_mgr_PPB-154",
+        "category": "Graph-Relational",
+        "query_text": "Who is the manager for Rowan Skye?",
+        "expected_answer": "Micah Rivera",
+        "relevance_grades": {
+            "PPB-152": 2,
+            "PPB-154": 1
+        }
+    },
+    {
+        "query_id": "graph_mgr_PPB-189",
+        "category": "Graph-Relational",
+        "query_text": "Who is the manager for Alex Miller?",
+        "expected_answer": "Oscar Nguyen",
+        "relevance_grades": {
+            "PPB-003": 2,
+            "PPB-189": 1
+        }
+    },
+    {
+        "query_id": "graph_mgr_PPB-145",
+        "category": "Graph-Relational",
+        "query_text": "Who is the manager for Micah Heller?",
+        "expected_answer": "Emerson Rivera",
+        "relevance_grades": {
+            "PPB-144": 2,
+            "PPB-145": 1
+        }
+    },
+    {
+        "query_id": "graph_mgr_PPB-130",
+        "category": "Graph-Relational",
+        "query_text": "Who is the manager for Taylor Patel?",
+        "expected_answer": "Phoenix DePorter",
+        "relevance_grades": {
+            "PPB-129": 2,
+            "PPB-130": 1
+        }
+    },
+    {
+        "query_id": "graph_store_PPB-007",
+        "category": "Graph-Relational",
+        "query_text": "Which city does Sidney Heller work in?",
+        "expected_answer": "Atlanta",
+        "relevance_grades": {
+            "GA-01": 2,
+            "PPB-007": 1
+        }
+    },
+    {
+        "query_id": "graph_store_PPB-159",
+        "category": "Graph-Relational",
+        "query_text": "Which city does Pat Brooks work in?",
+        "expected_answer": "Richmond",
+        "relevance_grades": {
+            "VA-02": 2,
+            "PPB-159": 1
+        }
+    },
+    {
+        "query_id": "graph_store_PPB-090",
+        "category": "Graph-Relational",
+        "query_text": "Which city does Taylor Finn work in?",
+        "expected_answer": "New York City",
+        "relevance_grades": {
+            "NY-01": 2,
+            "PPB-090": 1
+        }
+    },
+    {
+        "query_id": "graph_store_PPB-147",
+        "category": "Graph-Relational",
+        "query_text": "Which city does Emerson Stone work in?",
+        "expected_answer": "Richmond",
+        "relevance_grades": {
+            "VA-01": 2,
+            "PPB-147": 1
+        }
+    },
+    {
+        "query_id": "graph_store_PPB-154",
+        "category": "Graph-Relational",
+        "query_text": "Which city does Rowan Skye work in?",
+        "expected_answer": "Richmond",
+        "relevance_grades": {
+            "VA-01": 2,
+            "PPB-154": 1
+        }
+    },
+    {
+        "query_id": "graph_store_PPB-145",
+        "category": "Graph-Relational",
+        "query_text": "Which city does Micah Heller work in?",
+        "expected_answer": "Richmond",
+        "relevance_grades": {
+            "VA-01": 2,
+            "PPB-145": 1
+        }
+    },
+    {
+        "query_id": "graph_store_PPB-130",
+        "category": "Graph-Relational",
+        "query_text": "Which city does Taylor Patel work in?",
+        "expected_answer": "New York City",
+        "relevance_grades": {
+            "NY-04": 2,
+            "PPB-130": 1
+        }
+    },
+    {
+        "query_id": "multihop_wage_PPB-007",
+        "category": "Multi-Hop",
+        "query_text": "What is the minimum wage for Sidney Heller's location?",
+        "expected_answer": "7.25",
+        "relevance_grades": {
+            "MANDATE_GA": 2,
+            "STATE_GA": 1,
+            "GA-01": 1,
+            "PPB-007": 1
+        }
+    },
+    {
+        "query_id": "multihop_wage_PPB-159",
+        "category": "Multi-Hop",
+        "query_text": "What is the minimum wage for Pat Brooks's location?",
+        "expected_answer": "12.77",
+        "relevance_grades": {
+            "MANDATE_VA": 2,
+            "STATE_VA": 1,
+            "VA-02": 1,
+            "PPB-159": 1
+        }
+    },
+    {
+        "query_id": "multihop_wage_PPB-090",
+        "category": "Multi-Hop",
+        "query_text": "What is the minimum wage for Taylor Finn's location?",
+        "expected_answer": "17.0",
+        "relevance_grades": {
+            "MANDATE_NY": 2,
+            "STATE_NY": 1,
+            "NY-01": 1,
+            "PPB-090": 1
+        }
+    },
+    {
+        "query_id": "multihop_wage_PPB-147",
+        "category": "Multi-Hop",
+        "query_text": "What is the minimum wage for Emerson Stone's location?",
+        "expected_answer": "12.77",
+        "relevance_grades": {
+            "MANDATE_VA": 2,
+            "STATE_VA": 1,
+            "VA-01": 1,
+            "PPB-147": 1
+        }
+    },
+    {
+        "query_id": "multihop_wage_PPB-154",
+        "category": "Multi-Hop",
+        "query_text": "What is the minimum wage for Rowan Skye's location?",
+        "expected_answer": "12.77",
+        "relevance_grades": {
+            "MANDATE_VA": 2,
+            "STATE_VA": 1,
+            "VA-01": 1,
+            "PPB-154": 1
+        }
+    },
+    {
+        "query_id": "multihop_wage_PPB-145",
+        "category": "Multi-Hop",
+        "query_text": "What is the minimum wage for Micah Heller's location?",
+        "expected_answer": "12.77",
+        "relevance_grades": {
+            "MANDATE_VA": 2,
+            "STATE_VA": 1,
+            "VA-01": 1,
+            "PPB-145": 1
+        }
+    },
+    {
+        "query_id": "multihop_wage_PPB-130",
+        "category": "Multi-Hop",
+        "query_text": "What is the minimum wage for Taylor Patel's location?",
+        "expected_answer": "17.0",
+        "relevance_grades": {
+            "MANDATE_NY": 2,
+            "STATE_NY": 1,
+            "NY-04": 1,
+            "PPB-130": 1
+        }
+    },
+    {
+        "query_id": "graph_mgr_PPB-149",
+        "category": "Graph-Relational",
+        "query_text": "Who is the manager for Terry Patel?",
+        "expected_answer": "Micah Heller",
+        "relevance_grades": {
+            "PPB-145": 2,
+            "PPB-149": 1
+        }
+    },
+    {
+        "query_id": "graph_mgr_PPB-138",
+        "category": "Graph-Relational",
+        "query_text": "Who is the manager for Felix Miller?",
+        "expected_answer": "Emerson Nguyen",
+        "relevance_grades": {
+            "PPB-136": 2,
+            "PPB-138": 1
+        }
+    },
+    {
+        "query_id": "graph_mgr_PPB-084",
+        "category": "Graph-Relational",
+        "query_text": "Who is the manager for Parker Chen?",
+        "expected_answer": "Riley Nguyen",
+        "relevance_grades": {
+            "PPB-083": 2,
+            "PPB-084": 1
+        }
+    },
+    {
+        "query_id": "graph_mgr_PPB-331",
+        "category": "Graph-Relational",
+        "query_text": "Who is the manager for Emerson Heller?",
+        "expected_answer": "Terry Chen",
+        "relevance_grades": {
+            "PPB-001": 2,
+            "PPB-331": 1
+        }
+    },
+    {
+        "query_id": "graph_mgr_PPB-111",
+        "category": "Graph-Relational",
+        "query_text": "Who is the manager for Logan DePorter?",
+        "expected_answer": "Terry DePorter",
+        "relevance_grades": {
+            "PPB-106": 2,
+            "PPB-111": 1
+        }
+    },
+    {
+        "query_id": "graph_mgr_PPB-085",
+        "category": "Graph-Relational",
+        "query_text": "Who is the manager for Jules DePorter?",
+        "expected_answer": "Parker Chen",
+        "relevance_grades": {
+            "PPB-084": 2,
+            "PPB-085": 1
+        }
+    },
+    {
+        "query_id": "graph_mgr_PPB-115",
+        "category": "Graph-Relational",
+        "query_text": "Who is the manager for Onyx Heller?",
+        "expected_answer": "Taylor Garcia",
+        "relevance_grades": {
+            "PPB-114": 2,
+            "PPB-115": 1
+        }
+    },
+    {
+        "query_id": "graph_mgr_PPB-342",
+        "category": "Graph-Relational",
+        "query_text": "Who is the manager for Blake Chen?",
+        "expected_answer": "Terry Chen",
+        "relevance_grades": {
+            "PPB-001": 2,
+            "PPB-342": 1
+        }
+    },
+    {
+        "query_id": "graph_mgr_PPB-006",
+        "category": "Graph-Relational",
+        "query_text": "Who is the manager for Sam Skye?",
+        "expected_answer": "Jules Finn",
+        "relevance_grades": {
+            "PPB-002": 2,
+            "PPB-006": 1
+        }
+    },
+    {
+        "query_id": "graph_mgr_PPB-126",
+        "category": "Graph-Relational",
+        "query_text": "Who is the manager for Sam Skye?",
+        "expected_answer": "Dakota Finn",
+        "relevance_grades": {
+            "PPB-121": 2,
+            "PPB-126": 1
+        }
+    },
+    {
+        "query_id": "graph_store_PPB-149",
+        "category": "Graph-Relational",
+        "query_text": "Which city does Terry Patel work in?",
+        "expected_answer": "Richmond",
+        "relevance_grades": {
+            "VA-01": 2,
+            "PPB-149": 1
+        }
+    },
+    {
+        "query_id": "graph_store_PPB-138",
+        "category": "Graph-Relational",
+        "query_text": "Which city does Felix Miller work in?",
+        "expected_answer": "New York City",
+        "relevance_grades": {
+            "NY-04": 2,
+            "PPB-138": 1
+        }
+    },
+    {
+        "query_id": "graph_store_PPB-084",
+        "category": "Graph-Relational",
+        "query_text": "Which city does Parker Chen work in?",
+        "expected_answer": "New York City",
+        "relevance_grades": {
+            "NY-01": 2,
+            "PPB-084": 1
+        }
+    },
+    {
+        "query_id": "graph_store_PPB-111",
+        "category": "Graph-Relational",
+        "query_text": "Which city does Logan DePorter work in?",
+        "expected_answer": "New York City",
+        "relevance_grades": {
+            "NY-02": 2,
+            "PPB-111": 1
+        }
+    },
+    {
+        "query_id": "graph_store_PPB-085",
+        "category": "Graph-Relational",
+        "query_text": "Which city does Jules DePorter work in?",
+        "expected_answer": "New York City",
+        "relevance_grades": {
+            "NY-01": 2,
+            "PPB-085": 1
+        }
+    },
+    {
+        "query_id": "graph_store_PPB-115",
+        "category": "Graph-Relational",
+        "query_text": "Which city does Onyx Heller work in?",
+        "expected_answer": "New York City",
+        "relevance_grades": {
+            "NY-03": 2,
+            "PPB-115": 1
+        }
+    },
+    {
+        "query_id": "graph_store_PPB-126",
+        "category": "Graph-Relational",
+        "query_text": "Which city does Sam Skye work in?",
+        "expected_answer": "New York City",
+        "relevance_grades": {
+            "NY-03": 2,
+            "PPB-126": 1
+        }
+    },
+    {
+        "query_id": "multihop_wage_PPB-149",
+        "category": "Multi-Hop",
+        "query_text": "What is the minimum wage for Terry Patel's location?",
+        "expected_answer": "12.77",
+        "relevance_grades": {
+            "MANDATE_VA": 2,
+            "STATE_VA": 1,
+            "VA-01": 1,
+            "PPB-149": 1
+        }
+    },
+    {
+        "query_id": "multihop_wage_PPB-138",
+        "category": "Multi-Hop",
+        "query_text": "What is the minimum wage for Felix Miller's location?",
+        "expected_answer": "17.0",
+        "relevance_grades": {
+            "MANDATE_NY": 2,
+            "STATE_NY": 1,
+            "NY-04": 1,
+            "PPB-138": 1
+        }
+    },
+    {
+        "query_id": "multihop_wage_PPB-084",
+        "category": "Multi-Hop",
+        "query_text": "What is the minimum wage for Parker Chen's location?",
+        "expected_answer": "17.0",
+        "relevance_grades": {
+            "MANDATE_NY": 2,
+            "STATE_NY": 1,
+            "NY-01": 1,
+            "PPB-084": 1
+        }
+    },
+    {
+        "query_id": "multihop_wage_PPB-111",
+        "category": "Multi-Hop",
+        "query_text": "What is the minimum wage for Logan DePorter's location?",
+        "expected_answer": "17.0",
+        "relevance_grades": {
+            "MANDATE_NY": 2,
+            "STATE_NY": 1,
+            "NY-02": 1,
+            "PPB-111": 1
+        }
+    },
+    {
+        "query_id": "multihop_wage_PPB-085",
+        "category": "Multi-Hop",
+        "query_text": "What is the minimum wage for Jules DePorter's location?",
+        "expected_answer": "17.0",
+        "relevance_grades": {
+            "MANDATE_NY": 2,
+            "STATE_NY": 1,
+            "NY-01": 1,
+            "PPB-085": 1
+        }
+    },
+    {
+        "query_id": "multihop_wage_PPB-115",
+        "category": "Multi-Hop",
+        "query_text": "What is the minimum wage for Onyx Heller's location?",
+        "expected_answer": "17.0",
+        "relevance_grades": {
+            "MANDATE_NY": 2,
+            "STATE_NY": 1,
+            "NY-03": 1,
+            "PPB-115": 1
+        }
+    },
+    {
+        "query_id": "multihop_wage_PPB-126",
+        "category": "Multi-Hop",
+        "query_text": "What is the minimum wage for Sam Skye's location?",
+        "expected_answer": "17.0",
+        "relevance_grades": {
+            "MANDATE_NY": 2,
+            "STATE_NY": 1,
+            "NY-03": 1,
+            "PPB-126": 1
+        }
+    },
+    {
+        "query_id": "graph_mgr_PPB-190",
+        "category": "Graph-Relational",
+        "query_text": "Who is the manager for Oscar Smith?",
+        "expected_answer": "Alex Miller",
+        "relevance_grades": {
+            "PPB-189": 2,
+            "PPB-190": 1
+        }
+    },
+    {
+        "query_id": "graph_mgr_PPB-016",
+        "category": "Graph-Relational",
+        "query_text": "Who is the manager for Logan Miller?",
+        "expected_answer": "Blake Finn",
+        "relevance_grades": {
+            "PPB-015": 2,
+            "PPB-016": 1
+        }
+    },
+    {
+        "query_id": "graph_mgr_PPB-061",
+        "category": "Graph-Relational",
+        "query_text": "Who is the manager for Sage Brooks?",
+        "expected_answer": "Taylor Wilson",
+        "relevance_grades": {
+            "PPB-060": 2,
+            "PPB-061": 1
+        }
+    },
+    {
+        "query_id": "graph_mgr_PPB-033",
+        "category": "Graph-Relational",
+        "query_text": "Who is the manager for Micah Gomez?",
+        "expected_answer": "Charlie Kim",
+        "relevance_grades": {
+            "PPB-030": 2,
+            "PPB-033": 1
+        }
+    },
+    {
+        "query_id": "graph_mgr_PPB-139",
+        "category": "Graph-Relational",
+        "query_text": "Who is the manager for Zoe Smith?",
+        "expected_answer": "Emerson Nguyen",
+        "relevance_grades": {
+            "PPB-136": 2,
+            "PPB-139": 1
+        }
+    },
+    {
+        "query_id": "graph_mgr_PPB-117",
+        "category": "Graph-Relational",
+        "query_text": "Who is the manager for Peyton Wilson?",
+        "expected_answer": "Taylor Garcia",
+        "relevance_grades": {
+            "PPB-114": 2,
+            "PPB-117": 1
+        }
+    },
+    {
+        "query_id": "graph_mgr_PPB-094",
+        "category": "Graph-Relational",
+        "query_text": "Who is the manager for Avery DePorter?",
+        "expected_answer": "Sidney Garcia",
+        "relevance_grades": {
+            "PPB-091": 2,
+            "PPB-094": 1
+        }
+    },
+    {
+        "query_id": "graph_mgr_PPB-320",
+        "category": "Graph-Relational",
+        "query_text": "Who is the manager for Kelly Lee?",
+        "expected_answer": "Terry Chen",
+        "relevance_grades": {
+            "PPB-001": 2,
+            "PPB-320": 1
+        }
+    },
+    {
+        "query_id": "graph_mgr_PPB-067",
+        "category": "Graph-Relational",
+        "query_text": "Who is the manager for Sawyer Wilson?",
+        "expected_answer": "Sam Skye",
+        "relevance_grades": {
+            "PPB-006": 2,
+            "PPB-067": 1
+        }
+    },
+    {
+        "query_id": "graph_mgr_PPB-157",
+        "category": "Graph-Relational",
+        "query_text": "Who is the manager for Felix Reed?",
+        "expected_answer": "Micah Rivera",
+        "relevance_grades": {
+            "PPB-152": 2,
+            "PPB-157": 1
+        }
+    },
+    {
+        "query_id": "graph_store_PPB-016",
+        "category": "Graph-Relational",
+        "query_text": "Which city does Logan Miller work in?",
+        "expected_answer": "Atlanta",
+        "relevance_grades": {
+            "GA-01": 2,
+            "PPB-016": 1
+        }
+    },
+    {
+        "query_id": "graph_store_PPB-061",
+        "category": "Graph-Relational",
+        "query_text": "Which city does Sage Brooks work in?",
+        "expected_answer": "Atlanta",
+        "relevance_grades": {
+            "GA-04": 2,
+            "PPB-061": 1
+        }
+    },
+    {
+        "query_id": "graph_store_PPB-033",
+        "category": "Graph-Relational",
+        "query_text": "Which city does Micah Gomez work in?",
+        "expected_answer": "Atlanta",
+        "relevance_grades": {
+            "GA-02": 2,
+            "PPB-033": 1
+        }
+    },
+    {
+        "query_id": "graph_store_PPB-139",
+        "category": "Graph-Relational",
+        "query_text": "Which city does Zoe Smith work in?",
+        "expected_answer": "New York City",
+        "relevance_grades": {
+            "NY-04": 2,
+            "PPB-139": 1
+        }
+    },
+    {
+        "query_id": "graph_store_PPB-117",
+        "category": "Graph-Relational",
+        "query_text": "Which city does Peyton Wilson work in?",
+        "expected_answer": "New York City",
+        "relevance_grades": {
+            "NY-03": 2,
+            "PPB-117": 1
+        }
+    },
+    {
+        "query_id": "graph_store_PPB-094",
+        "category": "Graph-Relational",
+        "query_text": "Which city does Avery DePorter work in?",
+        "expected_answer": "New York City",
+        "relevance_grades": {
+            "NY-01": 2,
+            "PPB-094": 1
+        }
+    },
+    {
+        "query_id": "graph_store_PPB-067",
+        "category": "Graph-Relational",
+        "query_text": "Which city does Sawyer Wilson work in?",
+        "expected_answer": "Atlanta",
+        "relevance_grades": {
+            "GA-05": 2,
+            "PPB-067": 1
+        }
+    },
+    {
+        "query_id": "graph_store_PPB-157",
+        "category": "Graph-Relational",
+        "query_text": "Which city does Felix Reed work in?",
+        "expected_answer": "Richmond",
+        "relevance_grades": {
+            "VA-01": 2,
+            "PPB-157": 1
+        }
+    },
+    {
+        "query_id": "multihop_wage_PPB-016",
+        "category": "Multi-Hop",
+        "query_text": "What is the minimum wage for Logan Miller's location?",
+        "expected_answer": "7.25",
+        "relevance_grades": {
+            "MANDATE_GA": 2,
+            "STATE_GA": 1,
+            "GA-01": 1,
+            "PPB-016": 1
+        }
+    },
+    {
+        "query_id": "multihop_wage_PPB-061",
+        "category": "Multi-Hop",
+        "query_text": "What is the minimum wage for Sage Brooks's location?",
+        "expected_answer": "7.25",
+        "relevance_grades": {
+            "MANDATE_GA": 2,
+            "STATE_GA": 1,
+            "GA-04": 1,
+            "PPB-061": 1
+        }
+    },
+    {
+        "query_id": "multihop_wage_PPB-033",
+        "category": "Multi-Hop",
+        "query_text": "What is the minimum wage for Micah Gomez's location?",
+        "expected_answer": "7.25",
+        "relevance_grades": {
+            "MANDATE_GA": 2,
+            "STATE_GA": 1,
+            "GA-02": 1,
+            "PPB-033": 1
+        }
+    },
+    {
+        "query_id": "multihop_wage_PPB-139",
+        "category": "Multi-Hop",
+        "query_text": "What is the minimum wage for Zoe Smith's location?",
+        "expected_answer": "17.0",
+        "relevance_grades": {
+            "MANDATE_NY": 2,
+            "STATE_NY": 1,
+            "NY-04": 1,
+            "PPB-139": 1
+        }
+    },
+    {
+        "query_id": "multihop_wage_PPB-117",
+        "category": "Multi-Hop",
+        "query_text": "What is the minimum wage for Peyton Wilson's location?",
+        "expected_answer": "17.0",
+        "relevance_grades": {
+            "MANDATE_NY": 2,
+            "STATE_NY": 1,
+            "NY-03": 1,
+            "PPB-117": 1
+        }
+    },
+    {
+        "query_id": "multihop_wage_PPB-094",
+        "category": "Multi-Hop",
+        "query_text": "What is the minimum wage for Avery DePorter's location?",
+        "expected_answer": "17.0",
+        "relevance_grades": {
+            "MANDATE_NY": 2,
+            "STATE_NY": 1,
+            "NY-01": 1,
+            "PPB-094": 1
+        }
+    },
+    {
+        "query_id": "multihop_wage_PPB-067",
+        "category": "Multi-Hop",
+        "query_text": "What is the minimum wage for Sawyer Wilson's location?",
+        "expected_answer": "7.25",
+        "relevance_grades": {
+            "MANDATE_GA": 2,
+            "STATE_GA": 1,
+            "GA-05": 1,
+            "PPB-067": 1
+        }
+    },
+    {
+        "query_id": "multihop_wage_PPB-157",
+        "category": "Multi-Hop",
+        "query_text": "What is the minimum wage for Felix Reed's location?",
+        "expected_answer": "12.77",
+        "relevance_grades": {
+            "MANDATE_VA": 2,
+            "STATE_VA": 1,
+            "VA-01": 1,
+            "PPB-157": 1
+        }
+    }
+]

@@ -1,0 +1,5233 @@
+{
+  "company_metadata": {
+    "name": "Peachtree Pantry & Beverage Co. (PPB)",
+    "total_active": 222,
+    "total_resigned": 50,
+    "total_records": 272,
+    "last_updated": "2026-04-04",
+    "version": "7.0 (Historical Records)"
+  },
+  "employees": [
+    {
+      "employee_id": "PPB-001",
+      "first_name": "Terry",
+      "last_name": "Chen",
+      "title": "CEO",
+      "department": "Executive",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": null,
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 367300,
+      "performance_tier": "High",
+      "join_date": "2020-05-24",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-002",
+      "first_name": "Jules",
+      "last_name": "Finn",
+      "title": "COO",
+      "department": "Executive",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 217900,
+      "performance_tier": "High",
+      "join_date": "2024-01-07",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-003",
+      "first_name": "Oscar",
+      "last_name": "Nguyen",
+      "title": "CTO",
+      "department": "Executive",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 230800,
+      "performance_tier": "Standard",
+      "join_date": "2020-07-29",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-004",
+      "first_name": "Logan",
+      "last_name": "Lee",
+      "title": "CFO",
+      "department": "Executive",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 214100,
+      "performance_tier": "Standard",
+      "join_date": "2022-12-25",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-005",
+      "first_name": "Dakota",
+      "last_name": "Miller",
+      "title": "CMO",
+      "department": "Executive",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 206800,
+      "performance_tier": "Standard",
+      "join_date": "2023-02-08",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-006",
+      "first_name": "Sam",
+      "last_name": "Skye",
+      "title": "GA Regional Manager",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-002",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 46200,
+      "performance_tier": "Standard",
+      "join_date": "2023-11-20",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-007",
+      "first_name": "Sidney",
+      "last_name": "Heller",
+      "title": "Store Manager",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-01"
+      },
+      "reports_to_id": "PPB-006",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 75900,
+      "performance_tier": "High",
+      "join_date": "2023-03-28",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-008",
+      "first_name": "Jesse",
+      "last_name": "Reed",
+      "title": "Shift Lead",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-01"
+      },
+      "reports_to_id": "PPB-007",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 46400,
+      "performance_tier": "Standard",
+      "join_date": "2024-12-11",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-009",
+      "first_name": "Emerson",
+      "last_name": "Chen",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-01"
+      },
+      "reports_to_id": "PPB-008",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 36900,
+      "performance_tier": "Standard",
+      "hourly_rate": 17.74,
+      "join_date": "2024-04-06",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-010",
+      "first_name": "Sidney",
+      "last_name": "Rivera",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-01"
+      },
+      "reports_to_id": "PPB-008",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 40300,
+      "performance_tier": "Standard",
+      "hourly_rate": 19.38,
+      "join_date": "2022-12-19",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-011",
+      "first_name": "Dakota",
+      "last_name": "Rivera",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-01"
+      },
+      "reports_to_id": "PPB-008",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 43800,
+      "performance_tier": "Standard",
+      "hourly_rate": 21.06,
+      "join_date": "2020-11-02",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-012",
+      "first_name": "Peyton",
+      "last_name": "Stone",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-01"
+      },
+      "reports_to_id": "PPB-008",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 43500,
+      "performance_tier": "Standard",
+      "hourly_rate": 20.91,
+      "join_date": "2019-02-07",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-013",
+      "first_name": "Robin",
+      "last_name": "Lee",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-01"
+      },
+      "reports_to_id": "PPB-008",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 42200,
+      "performance_tier": "Standard",
+      "hourly_rate": 20.29,
+      "join_date": "2019-12-16",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-014",
+      "first_name": "Rowan",
+      "last_name": "Gomez",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-01"
+      },
+      "reports_to_id": "PPB-008",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 37900,
+      "performance_tier": "Standard",
+      "hourly_rate": 18.22,
+      "join_date": "2021-12-12",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-015",
+      "first_name": "Blake",
+      "last_name": "Finn",
+      "title": "Shift Lead",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-01"
+      },
+      "reports_to_id": "PPB-007",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 80300,
+      "performance_tier": "High",
+      "join_date": "2020-01-02",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-016",
+      "first_name": "Logan",
+      "last_name": "Miller",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-01"
+      },
+      "reports_to_id": "PPB-015",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 45900,
+      "performance_tier": "High",
+      "hourly_rate": 22.07,
+      "join_date": "2021-03-30",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-017",
+      "first_name": "Emerson",
+      "last_name": "Davis",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-01"
+      },
+      "reports_to_id": "PPB-015",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 53600,
+      "performance_tier": "High",
+      "hourly_rate": 25.77,
+      "join_date": "2019-11-11",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-018",
+      "first_name": "Dana",
+      "last_name": "Miller",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-01"
+      },
+      "reports_to_id": "PPB-015",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 46400,
+      "performance_tier": "Standard",
+      "hourly_rate": 22.31,
+      "join_date": "2019-07-14",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-019",
+      "first_name": "Chris",
+      "last_name": "Stone",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-01"
+      },
+      "reports_to_id": "PPB-015",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 43500,
+      "performance_tier": "Standard",
+      "hourly_rate": 20.91,
+      "join_date": "2018-04-16",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-020",
+      "first_name": "Jackie",
+      "last_name": "Gomez",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-01"
+      },
+      "reports_to_id": "PPB-015",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 44400,
+      "performance_tier": "Standard",
+      "hourly_rate": 21.35,
+      "join_date": "2018-12-22",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-021",
+      "first_name": "Dana",
+      "last_name": "DePorter",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-01"
+      },
+      "reports_to_id": "PPB-015",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 40800,
+      "performance_tier": "Standard",
+      "hourly_rate": 19.62,
+      "join_date": "2020-01-26",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-022",
+      "first_name": "Quinn",
+      "last_name": "Davis",
+      "title": "Store Manager",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-02"
+      },
+      "reports_to_id": "PPB-006",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 82600,
+      "performance_tier": "High",
+      "join_date": "2023-01-28",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-023",
+      "first_name": "Emerson",
+      "last_name": "Rivera",
+      "title": "Shift Lead",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-02"
+      },
+      "reports_to_id": "PPB-022",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 60500,
+      "performance_tier": "Standard",
+      "join_date": "2019-07-19",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-024",
+      "first_name": "Logan",
+      "last_name": "Reed",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-02"
+      },
+      "reports_to_id": "PPB-023",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 46000,
+      "performance_tier": "High",
+      "hourly_rate": 22.12,
+      "join_date": "2021-05-20",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-025",
+      "first_name": "Jesse",
+      "last_name": "DePorter",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-02"
+      },
+      "reports_to_id": "PPB-023",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 38300,
+      "performance_tier": "Standard",
+      "hourly_rate": 18.41,
+      "join_date": "2021-08-16",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-026",
+      "first_name": "Jesse",
+      "last_name": "Lee",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-02"
+      },
+      "reports_to_id": "PPB-023",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 62700,
+      "performance_tier": "High",
+      "hourly_rate": 30.14,
+      "join_date": "2020-01-14",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-027",
+      "first_name": "Alex",
+      "last_name": "Davis",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-02"
+      },
+      "reports_to_id": "PPB-023",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 47100,
+      "performance_tier": "Standard",
+      "hourly_rate": 22.64,
+      "join_date": "2020-02-20",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-028",
+      "first_name": "Quinn",
+      "last_name": "Stone",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-02"
+      },
+      "reports_to_id": "PPB-023",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 32900,
+      "performance_tier": "Standard",
+      "hourly_rate": 15.82,
+      "join_date": "2024-09-29",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-029",
+      "first_name": "Riley",
+      "last_name": "Heller",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-02"
+      },
+      "reports_to_id": "PPB-023",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 42800,
+      "performance_tier": "Standard",
+      "hourly_rate": 20.58,
+      "join_date": "2018-04-27",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-030",
+      "first_name": "Charlie",
+      "last_name": "Kim",
+      "title": "Shift Lead",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-02"
+      },
+      "reports_to_id": "PPB-022",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 57700,
+      "performance_tier": "Standard",
+      "join_date": "2020-10-26",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-031",
+      "first_name": "Phoenix",
+      "last_name": "Skye",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-02"
+      },
+      "reports_to_id": "PPB-030",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 36000,
+      "performance_tier": "Standard",
+      "hourly_rate": 17.31,
+      "join_date": "2022-05-17",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-032",
+      "first_name": "Leslie",
+      "last_name": "DePorter",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-02"
+      },
+      "reports_to_id": "PPB-030",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 40600,
+      "performance_tier": "Standard",
+      "hourly_rate": 19.52,
+      "join_date": "2020-07-24",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-033",
+      "first_name": "Micah",
+      "last_name": "Gomez",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-02"
+      },
+      "reports_to_id": "PPB-030",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 49400,
+      "performance_tier": "Standard",
+      "hourly_rate": 23.75,
+      "join_date": "2018-10-09",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-034",
+      "first_name": "Arlo",
+      "last_name": "Garcia",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-02"
+      },
+      "reports_to_id": "PPB-030",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 69000,
+      "performance_tier": "High",
+      "hourly_rate": 33.17,
+      "join_date": "2018-04-06",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-035",
+      "first_name": "Jesse",
+      "last_name": "Gomez",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-02"
+      },
+      "reports_to_id": "PPB-030",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 37300,
+      "performance_tier": "Standard",
+      "hourly_rate": 17.93,
+      "join_date": "2021-05-27",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-036",
+      "first_name": "Taylor",
+      "last_name": "DePorter",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-02"
+      },
+      "reports_to_id": "PPB-030",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 39200,
+      "performance_tier": "Standard",
+      "hourly_rate": 18.85,
+      "join_date": "2020-07-16",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-037",
+      "first_name": "Sawyer",
+      "last_name": "Wilson",
+      "title": "Store Manager",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-03"
+      },
+      "reports_to_id": "PPB-006",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 77100,
+      "performance_tier": "Standard",
+      "join_date": "2021-11-09",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-038",
+      "first_name": "Jackie",
+      "last_name": "Gomez",
+      "title": "Shift Lead",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-03"
+      },
+      "reports_to_id": "PPB-037",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 73300,
+      "performance_tier": "High",
+      "join_date": "2020-11-19",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-039",
+      "first_name": "Jesse",
+      "last_name": "Brooks",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-03"
+      },
+      "reports_to_id": "PPB-038",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 36800,
+      "performance_tier": "Standard",
+      "hourly_rate": 17.69,
+      "join_date": "2021-06-26",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-040",
+      "first_name": "Angel",
+      "last_name": "Wilson",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-03"
+      },
+      "reports_to_id": "PPB-038",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 40000,
+      "performance_tier": "Standard",
+      "hourly_rate": 19.23,
+      "join_date": "2022-11-29",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-041",
+      "first_name": "Leslie",
+      "last_name": "Skye",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-03"
+      },
+      "reports_to_id": "PPB-038",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 49300,
+      "performance_tier": "Standard",
+      "hourly_rate": 23.7,
+      "join_date": "2018-08-06",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-042",
+      "first_name": "Riley",
+      "last_name": "Smith",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-03"
+      },
+      "reports_to_id": "PPB-038",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 42700,
+      "performance_tier": "High",
+      "hourly_rate": 20.53,
+      "join_date": "2023-08-31",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-043",
+      "first_name": "Robin",
+      "last_name": "Lee",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-03"
+      },
+      "reports_to_id": "PPB-038",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 34000,
+      "performance_tier": "Standard",
+      "hourly_rate": 16.35,
+      "join_date": "2023-06-02",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-044",
+      "first_name": "Jackie",
+      "last_name": "Heller",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-03"
+      },
+      "reports_to_id": "PPB-038",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 44700,
+      "performance_tier": "Standard",
+      "hourly_rate": 21.49,
+      "join_date": "2018-07-03",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-045",
+      "first_name": "Terry",
+      "last_name": "Vance",
+      "title": "Shift Lead",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-03"
+      },
+      "reports_to_id": "PPB-037",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 72100,
+      "performance_tier": "High",
+      "join_date": "2020-05-21",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-046",
+      "first_name": "Sidney",
+      "last_name": "Nguyen",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-03"
+      },
+      "reports_to_id": "PPB-045",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 46500,
+      "performance_tier": "High",
+      "hourly_rate": 22.36,
+      "join_date": "2022-07-09",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-047",
+      "first_name": "Sage",
+      "last_name": "Stone",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-03"
+      },
+      "reports_to_id": "PPB-045",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 33100,
+      "performance_tier": "Standard",
+      "hourly_rate": 15.91,
+      "join_date": "2024-03-22",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-048",
+      "first_name": "Logan",
+      "last_name": "Garcia",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-03"
+      },
+      "reports_to_id": "PPB-045",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 35900,
+      "performance_tier": "Standard",
+      "hourly_rate": 17.26,
+      "join_date": "2022-07-09",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-049",
+      "first_name": "Sidney",
+      "last_name": "Heller",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-03"
+      },
+      "reports_to_id": "PPB-045",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 35800,
+      "performance_tier": "Standard",
+      "hourly_rate": 17.21,
+      "join_date": "2024-12-15",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-050",
+      "first_name": "Taylor",
+      "last_name": "Miller",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-03"
+      },
+      "reports_to_id": "PPB-045",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 41100,
+      "performance_tier": "Standard",
+      "hourly_rate": 19.76,
+      "join_date": "2022-03-07",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-051",
+      "first_name": "Jesse",
+      "last_name": "Reed",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-03"
+      },
+      "reports_to_id": "PPB-045",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 66500,
+      "performance_tier": "High",
+      "hourly_rate": 31.97,
+      "join_date": "2018-10-25",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-052",
+      "first_name": "Onyx",
+      "last_name": "Wilson",
+      "title": "Store Manager",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-04"
+      },
+      "reports_to_id": "PPB-006",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 64900,
+      "performance_tier": "Standard",
+      "join_date": "2025-01-04",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-053",
+      "first_name": "Taylor",
+      "last_name": "Davis",
+      "title": "Shift Lead",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-04"
+      },
+      "reports_to_id": "PPB-052",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 55400,
+      "performance_tier": "Standard",
+      "join_date": "2021-03-05",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-054",
+      "first_name": "Blake",
+      "last_name": "Garcia",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-04"
+      },
+      "reports_to_id": "PPB-053",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 39000,
+      "performance_tier": "Standard",
+      "hourly_rate": 18.75,
+      "join_date": "2021-01-17",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-055",
+      "first_name": "Rowan",
+      "last_name": "Vance",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-04"
+      },
+      "reports_to_id": "PPB-053",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 40800,
+      "performance_tier": "Standard",
+      "hourly_rate": 19.62,
+      "join_date": "2023-03-03",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-056",
+      "first_name": "Angel",
+      "last_name": "Skye",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-04"
+      },
+      "reports_to_id": "PPB-053",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 40700,
+      "performance_tier": "Standard",
+      "hourly_rate": 19.57,
+      "join_date": "2022-09-24",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-057",
+      "first_name": "Kelly",
+      "last_name": "Stone",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-04"
+      },
+      "reports_to_id": "PPB-053",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 42200,
+      "performance_tier": "Standard",
+      "hourly_rate": 20.29,
+      "join_date": "2019-12-28",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-058",
+      "first_name": "Robin",
+      "last_name": "Wilson",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-04"
+      },
+      "reports_to_id": "PPB-053",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 40900,
+      "performance_tier": "Standard",
+      "hourly_rate": 19.66,
+      "join_date": "2022-04-07",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-059",
+      "first_name": "Casey",
+      "last_name": "Nguyen",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-04"
+      },
+      "reports_to_id": "PPB-053",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 36700,
+      "performance_tier": "Standard",
+      "hourly_rate": 17.64,
+      "join_date": "2025-01-17",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-060",
+      "first_name": "Taylor",
+      "last_name": "Wilson",
+      "title": "Shift Lead",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-04"
+      },
+      "reports_to_id": "PPB-052",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 64200,
+      "performance_tier": "Standard",
+      "join_date": "2018-04-27",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-061",
+      "first_name": "Sage",
+      "last_name": "Brooks",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-04"
+      },
+      "reports_to_id": "PPB-060",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 34900,
+      "performance_tier": "Standard",
+      "hourly_rate": 16.78,
+      "join_date": "2022-05-12",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-062",
+      "first_name": "Parker",
+      "last_name": "Gomez",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-04"
+      },
+      "reports_to_id": "PPB-060",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 39800,
+      "performance_tier": "Standard",
+      "hourly_rate": 19.13,
+      "join_date": "2022-12-28",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-063",
+      "first_name": "Sage",
+      "last_name": "Smith",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-04"
+      },
+      "reports_to_id": "PPB-060",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 46600,
+      "performance_tier": "Standard",
+      "hourly_rate": 22.4,
+      "join_date": "2020-02-26",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-064",
+      "first_name": "Dana",
+      "last_name": "Wilson",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-04"
+      },
+      "reports_to_id": "PPB-060",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 47400,
+      "performance_tier": "Standard",
+      "hourly_rate": 22.79,
+      "join_date": "2020-02-04",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-065",
+      "first_name": "River",
+      "last_name": "Stone",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-04"
+      },
+      "reports_to_id": "PPB-060",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 40300,
+      "performance_tier": "Standard",
+      "hourly_rate": 19.38,
+      "join_date": "2019-06-13",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-066",
+      "first_name": "Zoe",
+      "last_name": "Vance",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-04"
+      },
+      "reports_to_id": "PPB-060",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 49800,
+      "performance_tier": "Standard",
+      "hourly_rate": 23.94,
+      "join_date": "2018-05-20",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-067",
+      "first_name": "Sawyer",
+      "last_name": "Wilson",
+      "title": "Store Manager",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-05"
+      },
+      "reports_to_id": "PPB-006",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 67000,
+      "performance_tier": "Standard",
+      "join_date": "2024-04-22",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-068",
+      "first_name": "Terry",
+      "last_name": "Brooks",
+      "title": "Shift Lead",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-05"
+      },
+      "reports_to_id": "PPB-067",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 59400,
+      "performance_tier": "Standard",
+      "join_date": "2019-06-17",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-069",
+      "first_name": "Chris",
+      "last_name": "Rivera",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-05"
+      },
+      "reports_to_id": "PPB-068",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 42700,
+      "performance_tier": "Standard",
+      "hourly_rate": 20.53,
+      "join_date": "2019-01-11",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-070",
+      "first_name": "Angel",
+      "last_name": "Chen",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-05"
+      },
+      "reports_to_id": "PPB-068",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 34500,
+      "performance_tier": "Standard",
+      "hourly_rate": 16.59,
+      "join_date": "2023-07-15",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-071",
+      "first_name": "Onyx",
+      "last_name": "Garcia",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-05"
+      },
+      "reports_to_id": "PPB-068",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 39400,
+      "performance_tier": "Standard",
+      "hourly_rate": 18.94,
+      "join_date": "2024-02-23",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-072",
+      "first_name": "Blake",
+      "last_name": "Rivera",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-05"
+      },
+      "reports_to_id": "PPB-068",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 44700,
+      "performance_tier": "Standard",
+      "hourly_rate": 21.49,
+      "join_date": "2021-02-07",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-073",
+      "first_name": "Casey",
+      "last_name": "Smith",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-05"
+      },
+      "reports_to_id": "PPB-068",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 41500,
+      "performance_tier": "Standard",
+      "hourly_rate": 19.95,
+      "join_date": "2019-07-14",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-074",
+      "first_name": "Dana",
+      "last_name": "Wilson",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-05"
+      },
+      "reports_to_id": "PPB-068",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 44100,
+      "performance_tier": "Standard",
+      "hourly_rate": 21.2,
+      "join_date": "2018-07-25",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-075",
+      "first_name": "Sam",
+      "last_name": "Kim",
+      "title": "Shift Lead",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-05"
+      },
+      "reports_to_id": "PPB-067",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 89200,
+      "performance_tier": "High",
+      "join_date": "2018-03-18",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-076",
+      "first_name": "Angel",
+      "last_name": "Garcia",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-05"
+      },
+      "reports_to_id": "PPB-075",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 41400,
+      "performance_tier": "Standard",
+      "hourly_rate": 19.9,
+      "join_date": "2019-10-02",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-077",
+      "first_name": "Dana",
+      "last_name": "Davis",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-05"
+      },
+      "reports_to_id": "PPB-075",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 43700,
+      "performance_tier": "Standard",
+      "hourly_rate": 21.01,
+      "join_date": "2020-05-17",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-078",
+      "first_name": "Terry",
+      "last_name": "Reed",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-05"
+      },
+      "reports_to_id": "PPB-075",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 44800,
+      "performance_tier": "Standard",
+      "hourly_rate": 21.54,
+      "join_date": "2020-09-09",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-079",
+      "first_name": "Blake",
+      "last_name": "Smith",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-05"
+      },
+      "reports_to_id": "PPB-075",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 49600,
+      "performance_tier": "Standard",
+      "hourly_rate": 23.85,
+      "join_date": "2019-01-28",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-080",
+      "first_name": "Pat",
+      "last_name": "DePorter",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-05"
+      },
+      "reports_to_id": "PPB-075",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 38100,
+      "performance_tier": "High",
+      "hourly_rate": 18.32,
+      "join_date": "2025-02-20",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-081",
+      "first_name": "Sage",
+      "last_name": "Finn",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "store_id": "GA-05"
+      },
+      "reports_to_id": "PPB-075",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 35700,
+      "performance_tier": "Standard",
+      "hourly_rate": 17.16,
+      "join_date": "2022-07-27",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-082",
+      "first_name": "Finley",
+      "last_name": "Vance",
+      "title": "NY Regional Manager",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY"
+      },
+      "reports_to_id": "PPB-002",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 55100,
+      "performance_tier": "Standard",
+      "join_date": "2019-05-16",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-083",
+      "first_name": "Riley",
+      "last_name": "Nguyen",
+      "title": "Store Manager",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-01"
+      },
+      "reports_to_id": "PPB-082",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 89200,
+      "performance_tier": "Standard",
+      "join_date": "2023-02-28",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-084",
+      "first_name": "Parker",
+      "last_name": "Chen",
+      "title": "Shift Lead",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-01"
+      },
+      "reports_to_id": "PPB-083",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 67300,
+      "performance_tier": "Standard",
+      "join_date": "2021-09-19",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-085",
+      "first_name": "Jules",
+      "last_name": "DePorter",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-01"
+      },
+      "reports_to_id": "PPB-084",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 44200,
+      "performance_tier": "High",
+      "hourly_rate": 21.25,
+      "join_date": "2024-10-24",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-086",
+      "first_name": "River",
+      "last_name": "Finn",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-01"
+      },
+      "reports_to_id": "PPB-084",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 61100,
+      "performance_tier": "Standard",
+      "hourly_rate": 29.38,
+      "join_date": "2019-01-12",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-087",
+      "first_name": "Casey",
+      "last_name": "Stone",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-01"
+      },
+      "reports_to_id": "PPB-084",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 56100,
+      "performance_tier": "Standard",
+      "hourly_rate": 26.97,
+      "join_date": "2020-07-11",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-088",
+      "first_name": "Terry",
+      "last_name": "Lee",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-01"
+      },
+      "reports_to_id": "PPB-084",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 71000,
+      "performance_tier": "High",
+      "hourly_rate": 34.13,
+      "join_date": "2020-05-02",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-089",
+      "first_name": "Sage",
+      "last_name": "Patel",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-01"
+      },
+      "reports_to_id": "PPB-084",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 45000,
+      "performance_tier": "Standard",
+      "hourly_rate": 21.63,
+      "join_date": "2022-07-28",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-090",
+      "first_name": "Taylor",
+      "last_name": "Finn",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-01"
+      },
+      "reports_to_id": "PPB-084",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 56400,
+      "performance_tier": "Standard",
+      "hourly_rate": 27.12,
+      "join_date": "2018-11-30",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-091",
+      "first_name": "Sidney",
+      "last_name": "Garcia",
+      "title": "Shift Lead",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-01"
+      },
+      "reports_to_id": "PPB-083",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 65900,
+      "performance_tier": "Standard",
+      "join_date": "2021-08-11",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-092",
+      "first_name": "Alex",
+      "last_name": "Smith",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-01"
+      },
+      "reports_to_id": "PPB-091",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 50900,
+      "performance_tier": "Standard",
+      "hourly_rate": 24.47,
+      "join_date": "2022-09-16",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-093",
+      "first_name": "Zoe",
+      "last_name": "Garcia",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-01"
+      },
+      "reports_to_id": "PPB-091",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 78200,
+      "performance_tier": "High",
+      "hourly_rate": 37.6,
+      "join_date": "2019-01-17",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-094",
+      "first_name": "Avery",
+      "last_name": "DePorter",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-01"
+      },
+      "reports_to_id": "PPB-091",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 52700,
+      "performance_tier": "Standard",
+      "hourly_rate": 25.34,
+      "join_date": "2021-09-07",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-095",
+      "first_name": "Dana",
+      "last_name": "Smith",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-01"
+      },
+      "reports_to_id": "PPB-091",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 59900,
+      "performance_tier": "Standard",
+      "hourly_rate": 28.8,
+      "join_date": "2018-09-07",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-096",
+      "first_name": "Sage",
+      "last_name": "Wilson",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-01"
+      },
+      "reports_to_id": "PPB-091",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 51400,
+      "performance_tier": "Standard",
+      "hourly_rate": 24.71,
+      "join_date": "2022-01-30",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-097",
+      "first_name": "Leslie",
+      "last_name": "Vance",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-01"
+      },
+      "reports_to_id": "PPB-091",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 59700,
+      "performance_tier": "Standard",
+      "hourly_rate": 28.7,
+      "join_date": "2018-04-17",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-098",
+      "first_name": "Jackie",
+      "last_name": "Smith",
+      "title": "Store Manager",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-02"
+      },
+      "reports_to_id": "PPB-082",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 106900,
+      "performance_tier": "Standard",
+      "join_date": "2019-01-18",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-099",
+      "first_name": "Charlie",
+      "last_name": "Gomez",
+      "title": "Shift Lead",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-02"
+      },
+      "reports_to_id": "PPB-098",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 60600,
+      "performance_tier": "Standard",
+      "join_date": "2022-05-04",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-100",
+      "first_name": "Sidney",
+      "last_name": "Nguyen",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-02"
+      },
+      "reports_to_id": "PPB-099",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 58000,
+      "performance_tier": "High",
+      "hourly_rate": 27.88,
+      "join_date": "2022-11-13",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-101",
+      "first_name": "Chris",
+      "last_name": "Stone",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-02"
+      },
+      "reports_to_id": "PPB-099",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 48900,
+      "performance_tier": "Standard",
+      "hourly_rate": 23.51,
+      "join_date": "2022-06-26",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-102",
+      "first_name": "Finley",
+      "last_name": "Vance",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-02"
+      },
+      "reports_to_id": "PPB-099",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 42400,
+      "performance_tier": "Standard",
+      "hourly_rate": 20.38,
+      "join_date": "2025-01-05",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-103",
+      "first_name": "Rowan",
+      "last_name": "Miller",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-02"
+      },
+      "reports_to_id": "PPB-099",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 45900,
+      "performance_tier": "Standard",
+      "hourly_rate": 22.07,
+      "join_date": "2025-01-12",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-104",
+      "first_name": "Jordan",
+      "last_name": "Vance",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-02"
+      },
+      "reports_to_id": "PPB-099",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 44900,
+      "performance_tier": "Standard",
+      "hourly_rate": 21.59,
+      "join_date": "2024-12-14",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-105",
+      "first_name": "Avery",
+      "last_name": "Finn",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-02"
+      },
+      "reports_to_id": "PPB-099",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 51600,
+      "performance_tier": "Standard",
+      "hourly_rate": 24.81,
+      "join_date": "2020-07-10",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-106",
+      "first_name": "Terry",
+      "last_name": "DePorter",
+      "title": "Shift Lead",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-02"
+      },
+      "reports_to_id": "PPB-098",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 64200,
+      "performance_tier": "Standard",
+      "join_date": "2022-08-17",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-107",
+      "first_name": "Jackie",
+      "last_name": "Patel",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-02"
+      },
+      "reports_to_id": "PPB-106",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 40800,
+      "performance_tier": "Standard",
+      "hourly_rate": 19.62,
+      "join_date": "2024-09-19",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-108",
+      "first_name": "Emerson",
+      "last_name": "Finn",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-02"
+      },
+      "reports_to_id": "PPB-106",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 50600,
+      "performance_tier": "Standard",
+      "hourly_rate": 24.33,
+      "join_date": "2022-07-20",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-109",
+      "first_name": "Zoe",
+      "last_name": "DePorter",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-02"
+      },
+      "reports_to_id": "PPB-106",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 76100,
+      "performance_tier": "High",
+      "hourly_rate": 36.59,
+      "join_date": "2019-11-11",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-110",
+      "first_name": "Onyx",
+      "last_name": "Heller",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-02"
+      },
+      "reports_to_id": "PPB-106",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 51500,
+      "performance_tier": "Standard",
+      "hourly_rate": 24.76,
+      "join_date": "2020-08-29",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-111",
+      "first_name": "Logan",
+      "last_name": "DePorter",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-02"
+      },
+      "reports_to_id": "PPB-106",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 59100,
+      "performance_tier": "Standard",
+      "hourly_rate": 28.41,
+      "join_date": "2018-09-07",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-112",
+      "first_name": "Micah",
+      "last_name": "Reed",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-02"
+      },
+      "reports_to_id": "PPB-106",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 45200,
+      "performance_tier": "Standard",
+      "hourly_rate": 21.73,
+      "join_date": "2024-05-09",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-113",
+      "first_name": "Peyton",
+      "last_name": "Stone",
+      "title": "Store Manager",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-03"
+      },
+      "reports_to_id": "PPB-082",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 110300,
+      "performance_tier": "Standard",
+      "join_date": "2018-11-12",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-114",
+      "first_name": "Taylor",
+      "last_name": "Garcia",
+      "title": "Shift Lead",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-03"
+      },
+      "reports_to_id": "PPB-113",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 75000,
+      "performance_tier": "Standard",
+      "join_date": "2018-10-01",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-115",
+      "first_name": "Onyx",
+      "last_name": "Heller",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-03"
+      },
+      "reports_to_id": "PPB-114",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 51100,
+      "performance_tier": "Standard",
+      "hourly_rate": 24.57,
+      "join_date": "2022-02-28",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-116",
+      "first_name": "Skyler",
+      "last_name": "Chen",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-03"
+      },
+      "reports_to_id": "PPB-114",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 55800,
+      "performance_tier": "Standard",
+      "hourly_rate": 26.83,
+      "join_date": "2018-12-11",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-117",
+      "first_name": "Peyton",
+      "last_name": "Wilson",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-03"
+      },
+      "reports_to_id": "PPB-114",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 70500,
+      "performance_tier": "High",
+      "hourly_rate": 33.89,
+      "join_date": "2021-01-03",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-118",
+      "first_name": "Drew",
+      "last_name": "Stone",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-03"
+      },
+      "reports_to_id": "PPB-114",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 48700,
+      "performance_tier": "Standard",
+      "hourly_rate": 23.41,
+      "join_date": "2021-10-03",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-119",
+      "first_name": "Drew",
+      "last_name": "Vance",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-03"
+      },
+      "reports_to_id": "PPB-114",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 60700,
+      "performance_tier": "Standard",
+      "hourly_rate": 29.18,
+      "join_date": "2018-11-15",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-120",
+      "first_name": "Riley",
+      "last_name": "Patel",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-03"
+      },
+      "reports_to_id": "PPB-114",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 71300,
+      "performance_tier": "High",
+      "hourly_rate": 34.28,
+      "join_date": "2019-04-27",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-121",
+      "first_name": "Dakota",
+      "last_name": "Finn",
+      "title": "Shift Lead",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-03"
+      },
+      "reports_to_id": "PPB-113",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 63000,
+      "performance_tier": "Standard",
+      "join_date": "2022-04-14",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-122",
+      "first_name": "Riley",
+      "last_name": "Skye",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-03"
+      },
+      "reports_to_id": "PPB-121",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 75400,
+      "performance_tier": "High",
+      "hourly_rate": 36.25,
+      "join_date": "2018-08-14",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-123",
+      "first_name": "Parker",
+      "last_name": "Vance",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-03"
+      },
+      "reports_to_id": "PPB-121",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 54800,
+      "performance_tier": "Standard",
+      "hourly_rate": 26.35,
+      "join_date": "2018-09-08",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-124",
+      "first_name": "Onyx",
+      "last_name": "Heller",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-03"
+      },
+      "reports_to_id": "PPB-121",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 59000,
+      "performance_tier": "High",
+      "hourly_rate": 28.37,
+      "join_date": "2022-01-19",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-125",
+      "first_name": "Peyton",
+      "last_name": "Smith",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-03"
+      },
+      "reports_to_id": "PPB-121",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 44300,
+      "performance_tier": "Standard",
+      "hourly_rate": 21.3,
+      "join_date": "2025-02-09",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-126",
+      "first_name": "Sam",
+      "last_name": "Skye",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-03"
+      },
+      "reports_to_id": "PPB-121",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 58400,
+      "performance_tier": "High",
+      "hourly_rate": 28.08,
+      "join_date": "2022-09-09",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-127",
+      "first_name": "Kelly",
+      "last_name": "Skye",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-03"
+      },
+      "reports_to_id": "PPB-121",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 55100,
+      "performance_tier": "Standard",
+      "hourly_rate": 26.49,
+      "join_date": "2019-01-12",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-128",
+      "first_name": "Parker",
+      "last_name": "Wilson",
+      "title": "Store Manager",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-04"
+      },
+      "reports_to_id": "PPB-082",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 109100,
+      "performance_tier": "Standard",
+      "join_date": "2018-11-23",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-129",
+      "first_name": "Phoenix",
+      "last_name": "DePorter",
+      "title": "Shift Lead",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-04"
+      },
+      "reports_to_id": "PPB-128",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 64200,
+      "performance_tier": "Standard",
+      "join_date": "2021-05-03",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-130",
+      "first_name": "Taylor",
+      "last_name": "Patel",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-04"
+      },
+      "reports_to_id": "PPB-129",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 83300,
+      "performance_tier": "High",
+      "hourly_rate": 40.05,
+      "join_date": "2018-03-07",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-131",
+      "first_name": "Sam",
+      "last_name": "Skye",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-04"
+      },
+      "reports_to_id": "PPB-129",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 46200,
+      "performance_tier": "Standard",
+      "hourly_rate": 22.21,
+      "join_date": "2022-05-31",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-132",
+      "first_name": "Charlie",
+      "last_name": "Lee",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-04"
+      },
+      "reports_to_id": "PPB-129",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 41200,
+      "performance_tier": "Standard",
+      "hourly_rate": 19.81,
+      "join_date": "2024-06-23",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-133",
+      "first_name": "Jesse",
+      "last_name": "Miller",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-04"
+      },
+      "reports_to_id": "PPB-129",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 46100,
+      "performance_tier": "Standard",
+      "hourly_rate": 22.16,
+      "join_date": "2025-01-23",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-134",
+      "first_name": "Jackie",
+      "last_name": "Miller",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-04"
+      },
+      "reports_to_id": "PPB-129",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 53900,
+      "performance_tier": "Standard",
+      "hourly_rate": 25.91,
+      "join_date": "2018-09-04",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-135",
+      "first_name": "Chris",
+      "last_name": "Lee",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-04"
+      },
+      "reports_to_id": "PPB-129",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 75300,
+      "performance_tier": "High",
+      "hourly_rate": 36.2,
+      "join_date": "2018-03-05",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-136",
+      "first_name": "Emerson",
+      "last_name": "Nguyen",
+      "title": "Shift Lead",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-04"
+      },
+      "reports_to_id": "PPB-128",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 62900,
+      "performance_tier": "Standard",
+      "join_date": "2022-10-02",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-137",
+      "first_name": "Jamie",
+      "last_name": "Wilson",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-04"
+      },
+      "reports_to_id": "PPB-136",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 68500,
+      "performance_tier": "High",
+      "hourly_rate": 32.93,
+      "join_date": "2019-08-21",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-138",
+      "first_name": "Felix",
+      "last_name": "Miller",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-04"
+      },
+      "reports_to_id": "PPB-136",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 41600,
+      "performance_tier": "Standard",
+      "hourly_rate": 20.0,
+      "join_date": "2024-12-18",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-139",
+      "first_name": "Zoe",
+      "last_name": "Smith",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-04"
+      },
+      "reports_to_id": "PPB-136",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 46600,
+      "performance_tier": "Standard",
+      "hourly_rate": 22.4,
+      "join_date": "2021-09-13",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-140",
+      "first_name": "Morgan",
+      "last_name": "Smith",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-04"
+      },
+      "reports_to_id": "PPB-136",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 46500,
+      "performance_tier": "Standard",
+      "hourly_rate": 22.36,
+      "join_date": "2023-03-24",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-141",
+      "first_name": "Jackie",
+      "last_name": "Kim",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-04"
+      },
+      "reports_to_id": "PPB-136",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 51200,
+      "performance_tier": "Standard",
+      "hourly_rate": 24.62,
+      "join_date": "2020-06-15",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-142",
+      "first_name": "Robin",
+      "last_name": "Patel",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "New York City",
+        "state": "NY",
+        "store_id": "NY-04"
+      },
+      "reports_to_id": "PPB-136",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 76100,
+      "performance_tier": "High",
+      "hourly_rate": 36.59,
+      "join_date": "2019-10-07",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-143",
+      "first_name": "Riley",
+      "last_name": "Smith",
+      "title": "VA Regional Manager",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Richmond",
+        "state": "VA"
+      },
+      "reports_to_id": "PPB-002",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 67500,
+      "performance_tier": "High",
+      "join_date": "2020-06-24",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-144",
+      "first_name": "Emerson",
+      "last_name": "Rivera",
+      "title": "Store Manager",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Richmond",
+        "state": "VA",
+        "store_id": "VA-01"
+      },
+      "reports_to_id": "PPB-143",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 81600,
+      "performance_tier": "Standard",
+      "join_date": "2019-10-10",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-145",
+      "first_name": "Micah",
+      "last_name": "Heller",
+      "title": "Shift Lead",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Richmond",
+        "state": "VA",
+        "store_id": "VA-01"
+      },
+      "reports_to_id": "PPB-144",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 55100,
+      "performance_tier": "Standard",
+      "join_date": "2021-02-28",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-146",
+      "first_name": "Dakota",
+      "last_name": "Nguyen",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Richmond",
+        "state": "VA",
+        "store_id": "VA-01"
+      },
+      "reports_to_id": "PPB-145",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 41100,
+      "performance_tier": "Standard",
+      "hourly_rate": 19.76,
+      "join_date": "2021-03-30",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-147",
+      "first_name": "Emerson",
+      "last_name": "Stone",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Richmond",
+        "state": "VA",
+        "store_id": "VA-01"
+      },
+      "reports_to_id": "PPB-145",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 36800,
+      "performance_tier": "Standard",
+      "hourly_rate": 17.69,
+      "join_date": "2021-04-28",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-148",
+      "first_name": "Sidney",
+      "last_name": "Patel",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Richmond",
+        "state": "VA",
+        "store_id": "VA-01"
+      },
+      "reports_to_id": "PPB-145",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 37100,
+      "performance_tier": "Standard",
+      "hourly_rate": 17.84,
+      "join_date": "2023-08-05",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-149",
+      "first_name": "Terry",
+      "last_name": "Patel",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Richmond",
+        "state": "VA",
+        "store_id": "VA-01"
+      },
+      "reports_to_id": "PPB-145",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 45100,
+      "performance_tier": "Standard",
+      "hourly_rate": 21.68,
+      "join_date": "2019-10-28",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-150",
+      "first_name": "Peyton",
+      "last_name": "Skye",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Richmond",
+        "state": "VA",
+        "store_id": "VA-01"
+      },
+      "reports_to_id": "PPB-145",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 37900,
+      "performance_tier": "Standard",
+      "hourly_rate": 18.22,
+      "join_date": "2020-06-20",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-151",
+      "first_name": "Casey",
+      "last_name": "Smith",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Richmond",
+        "state": "VA",
+        "store_id": "VA-01"
+      },
+      "reports_to_id": "PPB-145",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 37300,
+      "performance_tier": "Standard",
+      "hourly_rate": 17.93,
+      "join_date": "2023-06-14",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-152",
+      "first_name": "Micah",
+      "last_name": "Rivera",
+      "title": "Shift Lead",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Richmond",
+        "state": "VA",
+        "store_id": "VA-01"
+      },
+      "reports_to_id": "PPB-144",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 52300,
+      "performance_tier": "Standard",
+      "join_date": "2021-08-25",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-153",
+      "first_name": "Jamie",
+      "last_name": "Reed",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Richmond",
+        "state": "VA",
+        "store_id": "VA-01"
+      },
+      "reports_to_id": "PPB-152",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 40000,
+      "performance_tier": "Standard",
+      "hourly_rate": 19.23,
+      "join_date": "2021-12-03",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-154",
+      "first_name": "Rowan",
+      "last_name": "Skye",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Richmond",
+        "state": "VA",
+        "store_id": "VA-01"
+      },
+      "reports_to_id": "PPB-152",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 57300,
+      "performance_tier": "High",
+      "hourly_rate": 27.55,
+      "join_date": "2019-01-10",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-155",
+      "first_name": "Finley",
+      "last_name": "Reed",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Richmond",
+        "state": "VA",
+        "store_id": "VA-01"
+      },
+      "reports_to_id": "PPB-152",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 33700,
+      "performance_tier": "Standard",
+      "hourly_rate": 16.2,
+      "join_date": "2024-03-19",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-156",
+      "first_name": "Remy",
+      "last_name": "Wilson",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Richmond",
+        "state": "VA",
+        "store_id": "VA-01"
+      },
+      "reports_to_id": "PPB-152",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 41800,
+      "performance_tier": "Standard",
+      "hourly_rate": 20.1,
+      "join_date": "2020-05-26",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-157",
+      "first_name": "Felix",
+      "last_name": "Reed",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Richmond",
+        "state": "VA",
+        "store_id": "VA-01"
+      },
+      "reports_to_id": "PPB-152",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 43000,
+      "performance_tier": "Standard",
+      "hourly_rate": 20.67,
+      "join_date": "2019-12-04",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-158",
+      "first_name": "Riley",
+      "last_name": "Finn",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Richmond",
+        "state": "VA",
+        "store_id": "VA-01"
+      },
+      "reports_to_id": "PPB-152",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 39900,
+      "performance_tier": "Standard",
+      "hourly_rate": 19.18,
+      "join_date": "2022-01-25",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-159",
+      "first_name": "Pat",
+      "last_name": "Brooks",
+      "title": "Store Manager",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Richmond",
+        "state": "VA",
+        "store_id": "VA-02"
+      },
+      "reports_to_id": "PPB-143",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 84000,
+      "performance_tier": "Standard",
+      "join_date": "2019-01-27",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-160",
+      "first_name": "Micah",
+      "last_name": "DePorter",
+      "title": "Shift Lead",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Richmond",
+        "state": "VA",
+        "store_id": "VA-02"
+      },
+      "reports_to_id": "PPB-159",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 45500,
+      "performance_tier": "Standard",
+      "join_date": "2024-10-16",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-161",
+      "first_name": "Jade",
+      "last_name": "Nguyen",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Richmond",
+        "state": "VA",
+        "store_id": "VA-02"
+      },
+      "reports_to_id": "PPB-160",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 33200,
+      "performance_tier": "Standard",
+      "hourly_rate": 15.96,
+      "join_date": "2023-08-20",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-162",
+      "first_name": "Sage",
+      "last_name": "Brooks",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Richmond",
+        "state": "VA",
+        "store_id": "VA-02"
+      },
+      "reports_to_id": "PPB-160",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 35000,
+      "performance_tier": "Standard",
+      "hourly_rate": 16.83,
+      "join_date": "2024-04-17",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-163",
+      "first_name": "Terry",
+      "last_name": "Vance",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Richmond",
+        "state": "VA",
+        "store_id": "VA-02"
+      },
+      "reports_to_id": "PPB-160",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 35200,
+      "performance_tier": "Standard",
+      "hourly_rate": 16.92,
+      "join_date": "2022-11-09",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-164",
+      "first_name": "Jamie",
+      "last_name": "Gomez",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Richmond",
+        "state": "VA",
+        "store_id": "VA-02"
+      },
+      "reports_to_id": "PPB-160",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 46800,
+      "performance_tier": "Standard",
+      "hourly_rate": 22.5,
+      "join_date": "2018-05-10",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-165",
+      "first_name": "Kelly",
+      "last_name": "Stone",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Richmond",
+        "state": "VA",
+        "store_id": "VA-02"
+      },
+      "reports_to_id": "PPB-160",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 34500,
+      "performance_tier": "Standard",
+      "hourly_rate": 16.59,
+      "join_date": "2024-03-31",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-166",
+      "first_name": "Jesse",
+      "last_name": "Patel",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Richmond",
+        "state": "VA",
+        "store_id": "VA-02"
+      },
+      "reports_to_id": "PPB-160",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 33600,
+      "performance_tier": "Standard",
+      "hourly_rate": 16.15,
+      "join_date": "2023-11-17",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-167",
+      "first_name": "Alex",
+      "last_name": "Kim",
+      "title": "Shift Lead",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Richmond",
+        "state": "VA",
+        "store_id": "VA-02"
+      },
+      "reports_to_id": "PPB-159",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 46700,
+      "performance_tier": "Standard",
+      "join_date": "2024-01-08",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-168",
+      "first_name": "Drew",
+      "last_name": "Lee",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Richmond",
+        "state": "VA",
+        "store_id": "VA-02"
+      },
+      "reports_to_id": "PPB-167",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 39700,
+      "performance_tier": "Standard",
+      "hourly_rate": 19.09,
+      "join_date": "2021-04-05",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-169",
+      "first_name": "Jesse",
+      "last_name": "Stone",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Richmond",
+        "state": "VA",
+        "store_id": "VA-02"
+      },
+      "reports_to_id": "PPB-167",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 35700,
+      "performance_tier": "Standard",
+      "hourly_rate": 17.16,
+      "join_date": "2023-11-21",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-170",
+      "first_name": "Jesse",
+      "last_name": "Smith",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Richmond",
+        "state": "VA",
+        "store_id": "VA-02"
+      },
+      "reports_to_id": "PPB-167",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 36600,
+      "performance_tier": "Standard",
+      "hourly_rate": 17.6,
+      "join_date": "2023-10-05",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-171",
+      "first_name": "Remy",
+      "last_name": "Wilson",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Richmond",
+        "state": "VA",
+        "store_id": "VA-02"
+      },
+      "reports_to_id": "PPB-167",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 36800,
+      "performance_tier": "Standard",
+      "hourly_rate": 17.69,
+      "join_date": "2021-12-23",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-172",
+      "first_name": "Oscar",
+      "last_name": "Heller",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Richmond",
+        "state": "VA",
+        "store_id": "VA-02"
+      },
+      "reports_to_id": "PPB-167",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 36400,
+      "performance_tier": "High",
+      "hourly_rate": 17.5,
+      "join_date": "2024-03-31",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-173",
+      "first_name": "Onyx",
+      "last_name": "Patel",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Richmond",
+        "state": "VA",
+        "store_id": "VA-02"
+      },
+      "reports_to_id": "PPB-167",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 46000,
+      "performance_tier": "Standard",
+      "hourly_rate": 22.12,
+      "join_date": "2019-02-09",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-174",
+      "first_name": "Onyx",
+      "last_name": "Gomez",
+      "title": "Store Manager",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Richmond",
+        "state": "VA",
+        "store_id": "VA-03"
+      },
+      "reports_to_id": "PPB-143",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 65300,
+      "performance_tier": "Standard",
+      "join_date": "2023-09-03",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-175",
+      "first_name": "Leslie",
+      "last_name": "Skye",
+      "title": "Shift Lead",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Richmond",
+        "state": "VA",
+        "store_id": "VA-03"
+      },
+      "reports_to_id": "PPB-174",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 46200,
+      "performance_tier": "Standard",
+      "join_date": "2024-08-15",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-176",
+      "first_name": "Riley",
+      "last_name": "Heller",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Richmond",
+        "state": "VA",
+        "store_id": "VA-03"
+      },
+      "reports_to_id": "PPB-175",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 40700,
+      "performance_tier": "Standard",
+      "hourly_rate": 19.57,
+      "join_date": "2021-10-01",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-177",
+      "first_name": "Finley",
+      "last_name": "Skye",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Richmond",
+        "state": "VA",
+        "store_id": "VA-03"
+      },
+      "reports_to_id": "PPB-175",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 40600,
+      "performance_tier": "Standard",
+      "hourly_rate": 19.52,
+      "join_date": "2019-08-08",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-178",
+      "first_name": "Jade",
+      "last_name": "Rivera",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Richmond",
+        "state": "VA",
+        "store_id": "VA-03"
+      },
+      "reports_to_id": "PPB-175",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 34400,
+      "performance_tier": "Standard",
+      "hourly_rate": 16.54,
+      "join_date": "2022-07-15",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-179",
+      "first_name": "Dana",
+      "last_name": "Miller",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Richmond",
+        "state": "VA",
+        "store_id": "VA-03"
+      },
+      "reports_to_id": "PPB-175",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 46900,
+      "performance_tier": "Standard",
+      "hourly_rate": 22.55,
+      "join_date": "2018-10-15",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-180",
+      "first_name": "Onyx",
+      "last_name": "Nguyen",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Richmond",
+        "state": "VA",
+        "store_id": "VA-03"
+      },
+      "reports_to_id": "PPB-175",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 38500,
+      "performance_tier": "Standard",
+      "hourly_rate": 18.51,
+      "join_date": "2021-01-30",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-181",
+      "first_name": "Hayden",
+      "last_name": "Rivera",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Richmond",
+        "state": "VA",
+        "store_id": "VA-03"
+      },
+      "reports_to_id": "PPB-175",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 40200,
+      "performance_tier": "Standard",
+      "hourly_rate": 19.33,
+      "join_date": "2019-04-02",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-182",
+      "first_name": "Peyton",
+      "last_name": "Chen",
+      "title": "Shift Lead",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Richmond",
+        "state": "VA",
+        "store_id": "VA-03"
+      },
+      "reports_to_id": "PPB-174",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 70200,
+      "performance_tier": "High",
+      "join_date": "2020-03-05",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-183",
+      "first_name": "Emerson",
+      "last_name": "Patel",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Richmond",
+        "state": "VA",
+        "store_id": "VA-03"
+      },
+      "reports_to_id": "PPB-182",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 34500,
+      "performance_tier": "Standard",
+      "hourly_rate": 16.59,
+      "join_date": "2023-02-16",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-184",
+      "first_name": "Jade",
+      "last_name": "Nguyen",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Richmond",
+        "state": "VA",
+        "store_id": "VA-03"
+      },
+      "reports_to_id": "PPB-182",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 43100,
+      "performance_tier": "Standard",
+      "hourly_rate": 20.72,
+      "join_date": "2019-06-21",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-185",
+      "first_name": "Onyx",
+      "last_name": "DePorter",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Richmond",
+        "state": "VA",
+        "store_id": "VA-03"
+      },
+      "reports_to_id": "PPB-182",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 46100,
+      "performance_tier": "Standard",
+      "hourly_rate": 22.16,
+      "join_date": "2019-02-26",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-186",
+      "first_name": "Felix",
+      "last_name": "Brooks",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Richmond",
+        "state": "VA",
+        "store_id": "VA-03"
+      },
+      "reports_to_id": "PPB-182",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 41900,
+      "performance_tier": "Standard",
+      "hourly_rate": 20.14,
+      "join_date": "2018-07-01",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-187",
+      "first_name": "Sloane",
+      "last_name": "Gomez",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Richmond",
+        "state": "VA",
+        "store_id": "VA-03"
+      },
+      "reports_to_id": "PPB-182",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 34800,
+      "performance_tier": "Standard",
+      "hourly_rate": 16.73,
+      "join_date": "2022-08-16",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-188",
+      "first_name": "Finley",
+      "last_name": "Davis",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Richmond",
+        "state": "VA",
+        "store_id": "VA-03"
+      },
+      "reports_to_id": "PPB-182",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "annual_salary": 34900,
+      "performance_tier": "Standard",
+      "hourly_rate": 16.78,
+      "join_date": "2024-10-09",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-189",
+      "first_name": "Alex",
+      "last_name": "Miller",
+      "title": "IT Manager",
+      "department": "IT",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-003",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 135100,
+      "performance_tier": "Standard",
+      "join_date": "2022-04-21",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-190",
+      "first_name": "Oscar",
+      "last_name": "Smith",
+      "title": "IT Specialist",
+      "department": "IT",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-189",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 75900,
+      "performance_tier": "Standard",
+      "join_date": "2023-05-19",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-191",
+      "first_name": "Jordan",
+      "last_name": "Vance",
+      "title": "IT Specialist",
+      "department": "IT",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-189",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 77400,
+      "performance_tier": "Standard",
+      "join_date": "2022-08-17",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-192",
+      "first_name": "Emerson",
+      "last_name": "Miller",
+      "title": "IT Specialist",
+      "department": "IT",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-189",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 71600,
+      "performance_tier": "Standard",
+      "join_date": "2024-04-26",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-193",
+      "first_name": "Finley",
+      "last_name": "Gomez",
+      "title": "IT Specialist",
+      "department": "IT",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-189",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 85900,
+      "performance_tier": "Standard",
+      "join_date": "2021-08-13",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-194",
+      "first_name": "Jade",
+      "last_name": "Miller",
+      "title": "IT Specialist",
+      "department": "IT",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-189",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 94500,
+      "performance_tier": "Standard",
+      "join_date": "2018-04-01",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-195",
+      "first_name": "Morgan",
+      "last_name": "Brooks",
+      "title": "Dev Manager",
+      "department": "Engineering",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-003",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 165000,
+      "performance_tier": "Standard",
+      "join_date": "2019-09-24",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-196",
+      "first_name": "Finley",
+      "last_name": "Gomez",
+      "title": "Software Developer",
+      "department": "Engineering",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-195",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 112800,
+      "performance_tier": "Standard",
+      "join_date": "2020-02-10",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-197",
+      "first_name": "Terry",
+      "last_name": "Skye",
+      "title": "Software Developer",
+      "department": "Engineering",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-195",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 103500,
+      "performance_tier": "Standard",
+      "join_date": "2020-06-06",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-198",
+      "first_name": "Drew",
+      "last_name": "Kim",
+      "title": "Software Developer",
+      "department": "Engineering",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-195",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 96900,
+      "performance_tier": "Standard",
+      "join_date": "2022-06-03",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-199",
+      "first_name": "Terry",
+      "last_name": "Rivera",
+      "title": "Software Developer",
+      "department": "Engineering",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-195",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 102700,
+      "performance_tier": "Standard",
+      "join_date": "2020-09-19",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-200",
+      "first_name": "Logan",
+      "last_name": "Gomez",
+      "title": "HR Manager",
+      "department": "Human Resources",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-004",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 124600,
+      "performance_tier": "Standard",
+      "join_date": "2019-10-23",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-201",
+      "first_name": "Phoenix",
+      "last_name": "Gomez",
+      "title": "HR Specialist",
+      "department": "Human Resources",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-200",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 63900,
+      "performance_tier": "Standard",
+      "join_date": "2023-10-19",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-202",
+      "first_name": "Chris",
+      "last_name": "Heller",
+      "title": "HR Specialist",
+      "department": "Human Resources",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-200",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 72000,
+      "performance_tier": "Standard",
+      "join_date": "2020-04-16",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-203",
+      "first_name": "Chris",
+      "last_name": "Reed",
+      "title": "HR Specialist",
+      "department": "Human Resources",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-200",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 75600,
+      "performance_tier": "Standard",
+      "join_date": "2021-01-06",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-204",
+      "first_name": "Jackie",
+      "last_name": "DePorter",
+      "title": "HR Specialist",
+      "department": "Human Resources",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-200",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 59400,
+      "performance_tier": "Standard",
+      "join_date": "2024-12-24",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-205",
+      "first_name": "Morgan",
+      "last_name": "DePorter",
+      "title": "HR Specialist",
+      "department": "Human Resources",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-200",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 68200,
+      "performance_tier": "High",
+      "join_date": "2023-06-19",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-206",
+      "first_name": "Blake",
+      "last_name": "Rivera",
+      "title": "Accounting Manager",
+      "department": "Finance",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-004",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 124100,
+      "performance_tier": "Standard",
+      "join_date": "2021-08-02",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-207",
+      "first_name": "Jules",
+      "last_name": "Gomez",
+      "title": "Accountant",
+      "department": "Finance",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-206",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 91000,
+      "performance_tier": "Standard",
+      "join_date": "2019-02-20",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-208",
+      "first_name": "Avery",
+      "last_name": "Nguyen",
+      "title": "Accountant",
+      "department": "Finance",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-206",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 71700,
+      "performance_tier": "High",
+      "join_date": "2024-09-15",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-209",
+      "first_name": "Skyler",
+      "last_name": "Nguyen",
+      "title": "Accountant",
+      "department": "Finance",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-206",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 89900,
+      "performance_tier": "Standard",
+      "join_date": "2018-11-23",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-210",
+      "first_name": "Chris",
+      "last_name": "Lee",
+      "title": "Accountant",
+      "department": "Finance",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-206",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 71400,
+      "performance_tier": "Standard",
+      "join_date": "2023-09-19",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-211",
+      "first_name": "Jackie",
+      "last_name": "Kim",
+      "title": "Finance Manager",
+      "department": "Finance",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-004",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 111000,
+      "performance_tier": "Standard",
+      "join_date": "2024-07-02",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-212",
+      "first_name": "Hayden",
+      "last_name": "Chen",
+      "title": "Financial Analyst",
+      "department": "Finance",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-211",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 99500,
+      "performance_tier": "Standard",
+      "join_date": "2018-10-19",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-213",
+      "first_name": "Leslie",
+      "last_name": "Finn",
+      "title": "Financial Analyst",
+      "department": "Finance",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-211",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 108800,
+      "performance_tier": "High",
+      "join_date": "2020-04-21",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-214",
+      "first_name": "Robin",
+      "last_name": "Wilson",
+      "title": "Marketing Manager",
+      "department": "Marketing",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-005",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 132100,
+      "performance_tier": "Standard",
+      "join_date": "2018-11-16",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-215",
+      "first_name": "Zoe",
+      "last_name": "Garcia",
+      "title": "Marketing Associate",
+      "department": "Marketing",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-214",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 64500,
+      "performance_tier": "Standard",
+      "join_date": "2021-11-12",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-216",
+      "first_name": "Robin",
+      "last_name": "Wilson",
+      "title": "Marketing Associate",
+      "department": "Marketing",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-214",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 53300,
+      "performance_tier": "Standard",
+      "join_date": "2024-08-11",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-217",
+      "first_name": "Sage",
+      "last_name": "Heller",
+      "title": "Marketing Associate",
+      "department": "Marketing",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-214",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 84900,
+      "performance_tier": "High",
+      "join_date": "2021-01-10",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-218",
+      "first_name": "Hayden",
+      "last_name": "Kim",
+      "title": "Marketing Associate",
+      "department": "Marketing",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-214",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 104500,
+      "performance_tier": "High",
+      "join_date": "2018-11-20",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-219",
+      "first_name": "Leslie",
+      "last_name": "Finn",
+      "title": "Sales Manager",
+      "department": "Sales",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-005",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 108700,
+      "performance_tier": "Standard",
+      "join_date": "2022-02-13",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-220",
+      "first_name": "Zoe",
+      "last_name": "Davis",
+      "title": "Sales Associate",
+      "department": "Sales",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-219",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 67400,
+      "performance_tier": "Standard",
+      "join_date": "2018-03-29",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-221",
+      "first_name": "Blake",
+      "last_name": "Reed",
+      "title": "Sales Associate",
+      "department": "Sales",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-219",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 71900,
+      "performance_tier": "High",
+      "join_date": "2021-07-30",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-222",
+      "first_name": "Terry",
+      "last_name": "Rivera",
+      "title": "Sales Associate",
+      "department": "Sales",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-219",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "annual_salary": 64400,
+      "performance_tier": "Standard",
+      "join_date": "2019-12-17",
+      "resign_date": "working"
+    },
+    {
+      "employee_id": "PPB-300",
+      "first_name": "Rowan",
+      "last_name": "Gomez",
+      "title": "COO",
+      "department": "Executive",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA",
+        "region": "HQ"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "join_date": "2016-03-14",
+      "resign_date": "2024-03-26",
+      "annual_salary": 195000,
+      "performance_tier": "High"
+    },
+    {
+      "employee_id": "PPB-301",
+      "first_name": "Riley",
+      "last_name": "Smith",
+      "title": "HR Specialist",
+      "department": "Finance",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "join_date": "2016-04-01",
+      "resign_date": "2022-04-11",
+      "annual_salary": 59597,
+      "performance_tier": "High"
+    },
+    {
+      "employee_id": "PPB-302",
+      "first_name": "Sloane",
+      "last_name": "Finn",
+      "title": "Shift Lead",
+      "department": "Marketing",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "join_date": "2016-05-21",
+      "resign_date": "2018-03-16",
+      "annual_salary": 48998,
+      "performance_tier": "High"
+    },
+    {
+      "employee_id": "PPB-303",
+      "first_name": "Rowan",
+      "last_name": "DePorter",
+      "title": "IT Specialist",
+      "department": "Finance",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "join_date": "2019-05-03",
+      "resign_date": "2024-08-23",
+      "annual_salary": 82617,
+      "performance_tier": "High"
+    },
+    {
+      "employee_id": "PPB-304",
+      "first_name": "Micah",
+      "last_name": "Reed",
+      "title": "IT Specialist",
+      "department": "Marketing",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "join_date": "2019-05-22",
+      "resign_date": "2026-04-02",
+      "annual_salary": 66736,
+      "performance_tier": "Standard"
+    },
+    {
+      "employee_id": "PPB-305",
+      "first_name": "Emerson",
+      "last_name": "Garcia",
+      "title": "Front-line Service",
+      "department": "Marketing",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "join_date": "2019-10-26",
+      "resign_date": "2021-06-19",
+      "annual_salary": 37045,
+      "performance_tier": "Standard"
+    },
+    {
+      "employee_id": "PPB-306",
+      "first_name": "Dakota",
+      "last_name": "Skye",
+      "title": "Store Manager",
+      "department": "IT",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "join_date": "2019-07-27",
+      "resign_date": "2022-03-13",
+      "annual_salary": 61830,
+      "performance_tier": "High"
+    },
+    {
+      "employee_id": "PPB-307",
+      "first_name": "Peyton",
+      "last_name": "Smith",
+      "title": "Front-line Service",
+      "department": "Finance",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "join_date": "2016-11-20",
+      "resign_date": "2017-05-19",
+      "annual_salary": 49754,
+      "performance_tier": "Standard"
+    },
+    {
+      "employee_id": "PPB-308",
+      "first_name": "Drew",
+      "last_name": "Nguyen",
+      "title": "HR Specialist",
+      "department": "Finance",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "join_date": "2018-06-29",
+      "resign_date": "2024-02-08",
+      "annual_salary": 60901,
+      "performance_tier": "High"
+    },
+    {
+      "employee_id": "PPB-309",
+      "first_name": "Taylor",
+      "last_name": "Heller",
+      "title": "IT Specialist",
+      "department": "IT",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "join_date": "2019-09-19",
+      "resign_date": "2023-08-29",
+      "annual_salary": 49791,
+      "performance_tier": "Standard"
+    },
+    {
+      "employee_id": "PPB-310",
+      "first_name": "Logan",
+      "last_name": "Garcia",
+      "title": "IT Specialist",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "join_date": "2015-07-20",
+      "resign_date": "2024-05-02",
+      "annual_salary": 89661,
+      "performance_tier": "Standard"
+    },
+    {
+      "employee_id": "PPB-311",
+      "first_name": "Sidney",
+      "last_name": "Finn",
+      "title": "Shift Lead",
+      "department": "Finance",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "join_date": "2017-06-01",
+      "resign_date": "2019-09-07",
+      "annual_salary": 75414,
+      "performance_tier": "High"
+    },
+    {
+      "employee_id": "PPB-312",
+      "first_name": "Alex",
+      "last_name": "Lee",
+      "title": "Front-line Service",
+      "department": "Human Resources",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "join_date": "2023-01-23",
+      "resign_date": "2025-04-06",
+      "annual_salary": 62534,
+      "performance_tier": "Standard"
+    },
+    {
+      "employee_id": "PPB-313",
+      "first_name": "Robin",
+      "last_name": "Davis",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "join_date": "2018-10-21",
+      "resign_date": "2024-01-13",
+      "annual_salary": 39727,
+      "performance_tier": "Standard"
+    },
+    {
+      "employee_id": "PPB-314",
+      "first_name": "Kelly",
+      "last_name": "Wilson",
+      "title": "Regional Manager",
+      "department": "Human Resources",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "join_date": "2016-07-01",
+      "resign_date": "2023-05-22",
+      "annual_salary": 43280,
+      "performance_tier": "High"
+    },
+    {
+      "employee_id": "PPB-315",
+      "first_name": "Robin",
+      "last_name": "Heller",
+      "title": "IT Specialist",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "join_date": "2018-12-19",
+      "resign_date": "2021-01-11",
+      "annual_salary": 45525,
+      "performance_tier": "High"
+    },
+    {
+      "employee_id": "PPB-316",
+      "first_name": "Dana",
+      "last_name": "Smith",
+      "title": "Front-line Service",
+      "department": "Marketing",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "join_date": "2017-11-16",
+      "resign_date": "2021-05-09",
+      "annual_salary": 81974,
+      "performance_tier": "High"
+    },
+    {
+      "employee_id": "PPB-317",
+      "first_name": "Hayden",
+      "last_name": "Davis",
+      "title": "Store Manager",
+      "department": "Marketing",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "join_date": "2023-04-14",
+      "resign_date": "2024-11-08",
+      "annual_salary": 44720,
+      "performance_tier": "High"
+    },
+    {
+      "employee_id": "PPB-318",
+      "first_name": "Jesse",
+      "last_name": "DePorter",
+      "title": "HR Specialist",
+      "department": "IT",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "join_date": "2021-04-19",
+      "resign_date": "2021-05-20",
+      "annual_salary": 55252,
+      "performance_tier": "High"
+    },
+    {
+      "employee_id": "PPB-319",
+      "first_name": "Jesse",
+      "last_name": "Rivera",
+      "title": "Regional Manager",
+      "department": "Marketing",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "join_date": "2022-04-04",
+      "resign_date": "2022-07-06",
+      "annual_salary": 65058,
+      "performance_tier": "Standard"
+    },
+    {
+      "employee_id": "PPB-320",
+      "first_name": "Kelly",
+      "last_name": "Lee",
+      "title": "Store Manager",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "join_date": "2022-09-08",
+      "resign_date": "2023-11-26",
+      "annual_salary": 52553,
+      "performance_tier": "High"
+    },
+    {
+      "employee_id": "PPB-321",
+      "first_name": "Leslie",
+      "last_name": "Vance",
+      "title": "Regional Manager",
+      "department": "Finance",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "join_date": "2020-10-08",
+      "resign_date": "2021-05-10",
+      "annual_salary": 62860,
+      "performance_tier": "Standard"
+    },
+    {
+      "employee_id": "PPB-322",
+      "first_name": "Finley",
+      "last_name": "Miller",
+      "title": "Regional Manager",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "join_date": "2018-11-20",
+      "resign_date": "2025-01-12",
+      "annual_salary": 49090,
+      "performance_tier": "Standard"
+    },
+    {
+      "employee_id": "PPB-323",
+      "first_name": "Jamie",
+      "last_name": "Gomez",
+      "title": "Line Cook",
+      "department": "Human Resources",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "join_date": "2020-08-27",
+      "resign_date": "2025-03-11",
+      "annual_salary": 43039,
+      "performance_tier": "High"
+    },
+    {
+      "employee_id": "PPB-324",
+      "first_name": "Terry",
+      "last_name": "Stone",
+      "title": "Line Cook",
+      "department": "Finance",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "join_date": "2019-03-15",
+      "resign_date": "2024-08-14",
+      "annual_salary": 36950,
+      "performance_tier": "High"
+    },
+    {
+      "employee_id": "PPB-325",
+      "first_name": "Peyton",
+      "last_name": "Finn",
+      "title": "Regional Manager",
+      "department": "IT",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "join_date": "2020-09-07",
+      "resign_date": "2022-07-06",
+      "annual_salary": 46446,
+      "performance_tier": "Standard"
+    },
+    {
+      "employee_id": "PPB-326",
+      "first_name": "Alex",
+      "last_name": "Skye",
+      "title": "Line Cook",
+      "department": "Marketing",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "join_date": "2021-01-16",
+      "resign_date": "2024-10-12",
+      "annual_salary": 55686,
+      "performance_tier": "Standard"
+    },
+    {
+      "employee_id": "PPB-327",
+      "first_name": "Peyton",
+      "last_name": "Patel",
+      "title": "Front-line Service",
+      "department": "Human Resources",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "join_date": "2018-12-28",
+      "resign_date": "2020-01-06",
+      "annual_salary": 38864,
+      "performance_tier": "High"
+    },
+    {
+      "employee_id": "PPB-328",
+      "first_name": "Jamie",
+      "last_name": "Nguyen",
+      "title": "IT Specialist",
+      "department": "Marketing",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "join_date": "2023-05-13",
+      "resign_date": "2023-10-10",
+      "annual_salary": 71264,
+      "performance_tier": "High"
+    },
+    {
+      "employee_id": "PPB-329",
+      "first_name": "Felix",
+      "last_name": "Lee",
+      "title": "Shift Lead",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "join_date": "2022-09-08",
+      "resign_date": "2024-11-20",
+      "annual_salary": 87139,
+      "performance_tier": "High"
+    },
+    {
+      "employee_id": "PPB-330",
+      "first_name": "Logan",
+      "last_name": "Stone",
+      "title": "IT Specialist",
+      "department": "Marketing",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "join_date": "2021-05-04",
+      "resign_date": "2024-03-12",
+      "annual_salary": 64866,
+      "performance_tier": "Standard"
+    },
+    {
+      "employee_id": "PPB-331",
+      "first_name": "Emerson",
+      "last_name": "Heller",
+      "title": "Shift Lead",
+      "department": "IT",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "join_date": "2018-09-06",
+      "resign_date": "2021-07-13",
+      "annual_salary": 71694,
+      "performance_tier": "High"
+    },
+    {
+      "employee_id": "PPB-332",
+      "first_name": "River",
+      "last_name": "Rivera",
+      "title": "IT Specialist",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "join_date": "2017-01-22",
+      "resign_date": "2024-11-24",
+      "annual_salary": 85784,
+      "performance_tier": "High"
+    },
+    {
+      "employee_id": "PPB-333",
+      "first_name": "Dana",
+      "last_name": "Patel",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "join_date": "2016-10-14",
+      "resign_date": "2017-10-16",
+      "annual_salary": 58776,
+      "performance_tier": "High"
+    },
+    {
+      "employee_id": "PPB-334",
+      "first_name": "Finley",
+      "last_name": "Skye",
+      "title": "Front-line Service",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "join_date": "2021-04-03",
+      "resign_date": "2024-03-10",
+      "annual_salary": 85201,
+      "performance_tier": "High"
+    },
+    {
+      "employee_id": "PPB-335",
+      "first_name": "Quinn",
+      "last_name": "Vance",
+      "title": "Line Cook",
+      "department": "Human Resources",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "join_date": "2020-04-23",
+      "resign_date": "2024-02-21",
+      "annual_salary": 73306,
+      "performance_tier": "Standard"
+    },
+    {
+      "employee_id": "PPB-336",
+      "first_name": "Remy",
+      "last_name": "Heller",
+      "title": "Front-line Service",
+      "department": "IT",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "join_date": "2015-08-12",
+      "resign_date": "2022-07-14",
+      "annual_salary": 70815,
+      "performance_tier": "High"
+    },
+    {
+      "employee_id": "PPB-337",
+      "first_name": "Jackie",
+      "last_name": "Patel",
+      "title": "Store Manager",
+      "department": "Human Resources",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "join_date": "2019-10-19",
+      "resign_date": "2025-11-06",
+      "annual_salary": 50377,
+      "performance_tier": "Standard"
+    },
+    {
+      "employee_id": "PPB-338",
+      "first_name": "Dakota",
+      "last_name": "DePorter",
+      "title": "Regional Manager",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "join_date": "2019-10-27",
+      "resign_date": "2020-01-08",
+      "annual_salary": 50832,
+      "performance_tier": "Standard"
+    },
+    {
+      "employee_id": "PPB-339",
+      "first_name": "Sawyer",
+      "last_name": "Wilson",
+      "title": "IT Specialist",
+      "department": "Finance",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "join_date": "2019-04-23",
+      "resign_date": "2024-07-01",
+      "annual_salary": 75982,
+      "performance_tier": "High"
+    },
+    {
+      "employee_id": "PPB-340",
+      "first_name": "Angel",
+      "last_name": "DePorter",
+      "title": "Line Cook",
+      "department": "Finance",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "join_date": "2019-01-04",
+      "resign_date": "2025-06-30",
+      "annual_salary": 48641,
+      "performance_tier": "High"
+    },
+    {
+      "employee_id": "PPB-341",
+      "first_name": "Quinn",
+      "last_name": "Vance",
+      "title": "Shift Lead",
+      "department": "Marketing",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "join_date": "2022-06-08",
+      "resign_date": "2025-07-21",
+      "annual_salary": 70865,
+      "performance_tier": "Standard"
+    },
+    {
+      "employee_id": "PPB-342",
+      "first_name": "Blake",
+      "last_name": "Chen",
+      "title": "HR Specialist",
+      "department": "Finance",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "join_date": "2016-09-27",
+      "resign_date": "2018-04-30",
+      "annual_salary": 89803,
+      "performance_tier": "Standard"
+    },
+    {
+      "employee_id": "PPB-343",
+      "first_name": "Onyx",
+      "last_name": "Kim",
+      "title": "Store Manager",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "join_date": "2023-05-09",
+      "resign_date": "2025-01-20",
+      "annual_salary": 80194,
+      "performance_tier": "Standard"
+    },
+    {
+      "employee_id": "PPB-344",
+      "first_name": "Quinn",
+      "last_name": "Stone",
+      "title": "Shift Lead",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "join_date": "2016-11-18",
+      "resign_date": "2018-01-14",
+      "annual_salary": 57694,
+      "performance_tier": "Standard"
+    },
+    {
+      "employee_id": "PPB-345",
+      "first_name": "Terry",
+      "last_name": "Vance",
+      "title": "Line Cook",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "join_date": "2018-02-08",
+      "resign_date": "2019-03-13",
+      "annual_salary": 80938,
+      "performance_tier": "High"
+    },
+    {
+      "employee_id": "PPB-346",
+      "first_name": "Phoenix",
+      "last_name": "Nguyen",
+      "title": "Shift Lead",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "join_date": "2021-01-09",
+      "resign_date": "2024-04-05",
+      "annual_salary": 72921,
+      "performance_tier": "Standard"
+    },
+    {
+      "employee_id": "PPB-347",
+      "first_name": "Chris",
+      "last_name": "Skye",
+      "title": "HR Specialist",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "join_date": "2016-07-04",
+      "resign_date": "2024-03-31",
+      "annual_salary": 74324,
+      "performance_tier": "Standard"
+    },
+    {
+      "employee_id": "PPB-348",
+      "first_name": "Jules",
+      "last_name": "DePorter",
+      "title": "Regional Manager",
+      "department": "Marketing",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Exempt",
+      "join_date": "2022-03-21",
+      "resign_date": "2023-08-25",
+      "annual_salary": 40643,
+      "performance_tier": "Standard"
+    },
+    {
+      "employee_id": "PPB-349",
+      "first_name": "Sage",
+      "last_name": "Vance",
+      "title": "Shift Lead",
+      "department": "Retail Operations",
+      "location": {
+        "city": "Atlanta",
+        "state": "GA"
+      },
+      "reports_to_id": "PPB-001",
+      "employment_type": "Full-time",
+      "salary_type": "Non-Exempt",
+      "join_date": "2018-04-21",
+      "resign_date": "2021-11-23",
+      "annual_salary": 79448,
+      "performance_tier": "High"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+pymupdf==1.25.3
+neo4j==6.1.0
+sentence_transformers==5.2.3
+torch
+torchvision
+langchain-ollama==0.2.2
+langchain-core
+python-dotenv==0.21.1
+langgraph==0.2.74
+streamlit==1.42.2
+nltk==3.9.1
+pandas==2.2.3
+rouge-score==0.1.2
+rdflib==7.1.1

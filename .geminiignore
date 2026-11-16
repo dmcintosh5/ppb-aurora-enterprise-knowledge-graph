@@ -1,0 +1,27 @@
+# User specified ignores
+/.env/
+/.git/
+.dockerignore
+
+# Python env
+/__pycache__/
+*.py[cod]
+/.venv/
+/venv/
+/env/
+/.venvs/
+.venvs/**
+.pytest_cache/
+/zelkova/
+
+# Data
+
+
+# Project workflow and notes
+project_workflow_and_notes/
+
+# AI strategy
+# ai_strat/
+
+# Misc
+# Untitled11-1.ipynb
